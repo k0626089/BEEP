@@ -7,6 +7,6 @@ div.virtical-center {
     -webkit-transform: translateY(-50%);
 }
 
-input.text16 {
+input.form-control {
     font-size: 16px;
 }
