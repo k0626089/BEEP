@@ -1,6 +1,6 @@
 div.virtical-center {
     top: 50%;
-    margin-left: 10px;
+    margin-left: 11.5px;
     position: absolute;
     transform: translateY(-50%);
     -ms-transform: translateY(-50%);
