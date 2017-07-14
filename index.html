@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>삑 | 삑사리 방지기</title>
+        <title>삑 | 노래 음역대 검색엔진</title>
         <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
         <script>
             // Initialize Firebase
@@ -58,12 +58,12 @@
             <div class="form-group">
                 <input type="text" class="form-control" id="search" onkeyup="searchFunction()" placeholder="노래 제목이나 가수를 입력해 주세요">
                 <br/>
-                <table class="table table-striped">
+                <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>제목</th>
-                            <th>가수</th>
-                            <th>최고음</th>
+                            <th width="42%">제목</th>
+                            <th width="33%">가수</th>
+                            <th width="25%">최고음</th>
                         </tr>
                         <!--
                         <tr class="warning no-result">
@@ -73,7 +73,7 @@
                     </thead>
                     <tbody id="table">
                         <tr>
-                            <td><h5>가시</h5></td>
+                            <td><h5>사랑은 가슴이 지킨다</h5></td>
                             <td><h5>버즈</h5></td>
                             <td><h5>2옥타브 라</h5></td>
                         </tr>
@@ -81,6 +81,16 @@
                             <td><h5>잠시만 안녕</h5></td>
                             <td><h5>M.C THE MAX</h5></td>
                             <td><h5>3옥타브 도</h5></td>
+                        </tr>
+                        <tr>
+                            <td><h5>STAY</h5></td>
+                            <td><h5>NELL</h5></td>
+                            <td><h5>2옥타브 시</h5></td>
+                        </tr>
+                        <tr>
+                            <td><h5>달이 차오른다 가자</h5></td>
+                            <td><h5>장기하와 얼굴들</h5></td>
+                            <td><h5>2옥타브 솔#</h5></td>
                         </tr>
                     </tbody>
                 </table>
