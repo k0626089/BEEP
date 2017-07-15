@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>삑 | 노래 최고음 검색기</title>
+        <title>삑 | 최고음 검색기</title>
         <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
         <script>
             // Initialize Firebase
@@ -46,14 +46,18 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <div class="virtical-center">
-                        <!--
-                        <a class="navbar-brand" href="#">BEEP™</a>
-                        -->
                         <a href="index.html">
                         <img src="assets/image/beep.png" alt="Mountain View" style="height:22px;">
                         </a>
                         &nbsp;
-                        <img src="assets/image/indicators.png" alt="Mountain View" style="height:17;">
+                        <a href="#" data-toggle="tooltip" data-placement="bottom" title="옥타브 1·2·3·4">
+                            <img src="assets/image/indicators.png" alt="Mountain View" style="height:17;">
+                        </a>
+                        <script>
+                            $(document).ready(function(){
+                                $('[data-toggle="tooltip"]').tooltip();   
+                            });
+                        </script>
                     </div>
                 </div>
             </div>
@@ -61,46 +65,6 @@
         <div class="container">
             <div class="form-group">
                 <input type="text" class="form-control" id="search" onkeyup="searchFunction()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
-                <table class="table table-borderless">
-                    <tbody id="table">
-                        <tr>
-                            <td class="octave">라</td>
-                            <div>
-                                <td>
-                                    사랑은 가슴이 지킨다<br/>버즈
-                                </td>
-                            </div>
-                        </tr>
-                        <tr>
-                            <td>3옥 도</td>
-                            <td>
-                                잠시만 안녕<br/>M.C THE MAX
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2옥 시</td>
-                            <td>
-                                STAY<br/>NELL
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2옥 솔#</td>
-                            <td>
-                                달이 차오른다 가자<br/>장기하와 얼굴들
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <script>
-                    var $rows = $('#table tr');
-                    $('#search').keyup(function() {
-                        var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
-                        $rows.show().filter(function() {
-                            var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
-                            return !~text.indexOf(val);
-                        }).hide();
-                    });
-                </script>
             </div> 
         </div>
     </body>
