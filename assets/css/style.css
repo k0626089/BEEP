@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
 div.virtical-center {
     top: 50%;
     margin-left: 11.5px;
@@ -9,6 +11,7 @@ div.virtical-center {
 
 input.form-control {
     font-size: 16px;
+    font-family: 'Nanum Gothic';
 }
 
 div.circle {
@@ -17,9 +20,10 @@ div.circle {
     height: 55px;
     padding: 7px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     border-radius: 50%;
+    font-family: 'Nanum Gothic';
 }
 
 div.oct_1 {
@@ -43,18 +47,20 @@ div.oct_4 {
 }
 
 .title {
-    color: #242424;
-    font-size: 19px;
+    color: #292929;
+    font-size: 18px;
     padding-top: 2px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 0px 65px;
+    font-family: 'Nanum Gothic';
 }
 
 .artist {
     color: #606060;
     margin: 0;
     padding: 0;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 400;
     margin-left: 65px;
+    font-family: 'Nanum Gothic';
 }
