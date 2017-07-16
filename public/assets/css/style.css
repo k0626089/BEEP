@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/*@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);*/
 
 div.virtical-center {
     top: 50%;
@@ -11,7 +11,7 @@ div.virtical-center {
 
 input.form-control {
     font-size: 16px;
-    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;
+/*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
 }
 
 div.circle {
@@ -23,7 +23,7 @@ div.circle {
     font-weight: 700;
     text-align: center;
     border-radius: 50%;
-    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;
+/*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
 }
 
 div.oct_1 {
@@ -52,7 +52,7 @@ div.oct_4 {
     padding-top: 2px;
     font-weight: 700;
     margin: 0px 65px;
-    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;
+/*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
 }
 
 .artist {
@@ -62,5 +62,5 @@ div.oct_4 {
     font-size: 15px;
     font-weight: 400;
     margin-left: 65px;
-    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;
+/*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
 }
