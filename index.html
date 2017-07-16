@@ -3,8 +3,8 @@
         <meta charset="utf-8">
         <title>삑 | 최고음 검색기</title>
         <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+        <!-- Initialize Firebase -->
         <script>
-            // Initialize Firebase
             var config = {
                 apiKey: "AIzaSyB-XsD6afP9nBhmcluk9HzcPpMBxVLhzZs",
                 authDomain: "beep-a7112.firebaseapp.com",
@@ -42,6 +42,7 @@
     </head>
     
     <body>
+        <!-- Nav bar -->
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -53,6 +54,7 @@
                         <a href="#" data-toggle="tooltip" data-placement="bottom" title="옥타브 1·2·3·4">
                             <img src="assets/image/indicators.png" alt="Mountain View" style="height:17;">
                         </a>
+                        <!-- tooltip script -->
                         <script>
                             $(document).ready(function(){
                                 $('[data-toggle="tooltip"]').tooltip();   
@@ -63,9 +65,27 @@
             </div>
         </nav>
         <div class="container">
+            <!-- Search bar -->
             <div class="form-group">
                 <input type="text" class="form-control" id="search" onkeyup="searchFunction()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
-            </div> 
+            </div>
+            <div id="myList">
+                <div>
+                    <div class="circle oct_1">레</div>
+                    <div>
+                        <p class="title">사랑은 가슴이 시킨다</p>
+                        <p class="artist">버즈</p>
+                    </div>
+                </div>
+                <!--
+                <div>
+                    <div class="circle oct_2">솔</div>
+                </div>
+                <div>
+                    <div class="circle oct_4">도</div>
+                </div>
+                -->
+            </div>
         </div>
     </body>
 </html>
