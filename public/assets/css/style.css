@@ -159,3 +159,10 @@ div.oct_4 {
     float: right;
     padding-right: 15px;
 }
+
+.pager_absolute {
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    position: absolute; 
+}
