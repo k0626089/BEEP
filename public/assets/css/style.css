@@ -94,10 +94,10 @@ div.oct_4 {
 
 .footer_title {
     margin: 0px;
-    padding: 0px;
-    color: #303030;
+    color: #292929;
     font-size: 15px;
     font-weight: 500;
+    padding: 0px 0px 0px 2px;
 }
 
 .footer_content {
@@ -105,6 +105,7 @@ div.oct_4 {
     padding: 0px;
     font-size: 14px;
     font-weight: 300;
+    padding: 0px 0px 0px 2px;
 }
 
 .narrow {
@@ -112,24 +113,49 @@ div.oct_4 {
 }
 
 .login {
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
 
 .login_title {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 5px 0px;
     padding: 0px;
-    color: #303030;
-    font-size: 20px;
+    color: #292929;
+    font-size: 23px;
     font-weight: 700;
 }
 
 .login_content {
     margin: 0px 0px 0px 5px;
     padding: 0px;
-    font-size: 14px;
+    color: #707070;
+    font-size: 15px;
     font-weight: 300;
 }
 
 .form_login {
     margin-bottom: 300px;
+}
+
+.input {
+    margin: 0px;
+    height: 40px;
+    color: #303030;
+    padding: 9px 0px 0px 14px;
+    text-shadow: 0.5px 0.5px 2px #989898;
+}
+
+.text_input {
+    color: #F8F8F8;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #171717;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    padding-right: 15px;
 }
