@@ -41,7 +41,7 @@
         <meta name="theme-color" content="#ffffff">
     </head>
     
-    <body>
+    <body onload="getBlocks()">
         <!-- Nav bar -->
         <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -59,10 +59,11 @@
                                 $('[data-toggle="tooltip"]').tooltip();   
                             });
                         </script>
-                        
+                        <!-- for debugging purpose only -->
+                        <!--
                         <button type="button" class="btn" onclick="getBlocks()">Load</button>
                         <button type="button" class="btn" onclick="eraseBlocks()">Reset</button>
-                        
+                        -->
                     </div>
                 </div>
             </div>
