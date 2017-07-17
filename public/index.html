@@ -59,6 +59,9 @@
                                 $('[data-toggle="tooltip"]').tooltip();   
                             });
                         </script>
+                        
+                        <button type="button" class="btn" onclick="searchFunction('3', '레', '제목', '가수', 1)">Add</button>
+                        
                     </div>
                 </div>
             </div>
@@ -66,14 +69,16 @@
         <div class="container">
             <!-- Search bar -->
             <div class="form-group">
-                <input type="text" class="form-control" id="searchbar" onkeyup="searchFunction()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
+                <input type="text" class="form-control" id="searchbar" onsubmit="searchFunction()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
             </div>
             <div id="blocklist">
                 <div>
-                    <div class="circle oct_2">라</div>
+                    <div class="circle oct_2">
+                        라<p class="sharp">#</p>
+                    </div>
                     <div>
-                        <p class="title">사랑은 가슴이 시킨다</p>
-                        <p class="artist">버즈</p>
+                        <p class="title">안녕 나의 사랑</p>
+                        <p class="artist">성시경</p>
                     </div>
                     <br/>
                 </div>
@@ -85,21 +90,20 @@
                     </div>
                     <br/>
                 </div>
+                <!--
+                <div>
+                    <div class="circle oct_2">라</div>
+                    <div>
+                        <p class="title">사랑은 가슴이 시킨다</p>
+                        <p class="artist">버즈</p>
+                    </div>
+                    <br/>
+                </div>
                 <div>
                     <div class="circle oct_4">도</div>
                     <div>
                         <p class="title">Tears(나는 가수다)</p>
                         <p class="artist">소찬휘</p>
-                    </div>
-                    <br/>
-                </div>
-                <div>
-                    <div class="circle oct_2">
-                        라<p class="sharp">#</p>
-                    </div>
-                    <div>
-                        <p class="title">안녕 나의 사랑</p>
-                        <p class="artist">성시경</p>
                     </div>
                     <br/>
                 </div>
@@ -135,6 +139,7 @@
                     </div>
                     <br/>
                 </div>
+                -->
             </div>
             <ul class="pager">
                 <li><a href="#">이전</a></li>
