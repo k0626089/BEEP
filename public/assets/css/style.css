@@ -160,9 +160,11 @@ div.oct_4 {
     padding-right: 15px;
 }
 
-.pager_absolute {
-    left: 0;
-    right: 0;
-    bottom: 70px;
+.pager {
+    right: 20px; 
+    bottom: 4px;
+    width: 120px;
+    margin-left: auto; 
+    margin-right: auto; 
     position: absolute; 
 }
