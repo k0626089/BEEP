@@ -59,9 +59,7 @@
                                 $('[data-toggle="tooltip"]').tooltip();   
                             });
                         </script>
-                        
-                        <button type="button" class="btn" onclick="searchFunction('3', '레', '제목', '가수', 1)">Add</button>
-                        
+                        <button type="button" class="btn" onclick="getBlock()">Test</button>
                     </div>
                 </div>
             </div>
@@ -69,7 +67,15 @@
         <div class="container">
             <!-- Search bar -->
             <div class="form-group">
-                <input type="text" class="form-control" id="searchbar" onsubmit="searchFunction()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
+                <form id="searchform">
+                    <input type="text" class="form-control" id="searchbar" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
+                    <script>
+                        $('#searchform').submit(function () {
+                            addBlock('2', '솔', '제목', '가수', 0);
+                            return false;
+                        });
+                    </script>
+                </form>
             </div>
             <div id="blocklist">
                 <div>
@@ -147,9 +153,7 @@
             </ul>
         </div>
         <footer class="footer">
-            <div class="bottom">
-                Footer
-            </div>
+            Footer
         </footer>
     </body>
 </html>

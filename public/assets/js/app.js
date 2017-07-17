@@ -1,4 +1,5 @@
-function searchFunction(octav, note, title, artist, sharp) {
+// var type: str, str, str, str, int
+function addBlock(octave, note, title, artist, sharp) {
     "use strict";
     var outer_div = document.createElement("div"),
         octave_div = document.createElement("div"),
@@ -13,7 +14,7 @@ function searchFunction(octav, note, title, artist, sharp) {
         titlenode = document.createTextNode(title),
         artistnode = document.createTextNode(artist),
         
-        oct_class = "circle oct_".concat(octav),
+        oct_class = "circle oct_".concat(octave),
         
         br = document.createElement("br");
     
@@ -36,4 +37,17 @@ function searchFunction(octav, note, title, artist, sharp) {
     outer_div.appendChild(main_div);
     outer_div.appendChild(br);
     document.getElementById("blocklist").appendChild(outer_div);
+}
+
+function getBlock() {
+    "use strict";
+    firebase.database().ref('/songs/song-0000002').once('value').then(function(snapshot) {
+        var octave = snapshot.val().octave,
+            note = snapshot.val().note,
+            title = snapshot.val().title,
+            artist = snapshot.val().artist,
+            sharp = snapshot.val().sharp;
+        
+        addBlock(octave, note, title, artist, sharp)
+    });
 }

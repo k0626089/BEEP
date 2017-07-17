@@ -79,14 +79,11 @@ div.oct_4 {
 
 .footer {
     height: 60px;
+    padding: 20px;
     border: solid 1px #E7E7E7;
     background-color: #F8F8F8;
 }
 
 .btn-center {
     text-align: center;
-}
-
-.bottom {
-    padding: 20px;
 }
