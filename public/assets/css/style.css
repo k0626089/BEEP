@@ -14,10 +14,6 @@ input.form-control {
 /*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
 }
 
-img.beta {
-    margin-top: 12px;
-}
-
 div.circle {
     float:left;
     width: 55px;
@@ -30,31 +26,43 @@ div.circle {
 /*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
 }
 
+.sharp {
+    top: -50px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    color: #909090;
+    font-size: 15px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #404040;
+}
+
 div.oct_1 {
-    color: #BECDDB;
-    background-color: #235789;
+    color: #525E6A;
+    background-color: #C7D0D6;
 }
 
 div.oct_2 {
-    color: #2B655C;
-    background-color: #3AE9A6;
+    color: #3D5D75;
+    background-color: #7ECEFD;
 }
 
 div.oct_3 {
-    color: #FED3C6;
-    background-color: #FF6B35;
+    color: #BFDBED;
+    background-color: #2185C5;
 }
 
 div.oct_4 {
-    color: #F2BEC9;
-    background-color: #D62246;
+    color: #C5C8CA;
+    background-color: #3E454C;
 }
 
 .title {
     color: #292929;
     font-size: 18px;
     padding-top: 2px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0px 65px;
 /*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
 }
@@ -67,4 +75,10 @@ div.oct_4 {
     font-weight: 400;
     margin-left: 65px;
 /*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
+}
+
+.footer {
+    height: 60px;
+    border: solid 1px #E7E7E7;
+    background-color: #F8F8F8;
 }
