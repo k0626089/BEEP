@@ -39,20 +39,29 @@ function addBlock(octave, note, title, artist, sharp) {
     document.getElementById("blocklist").appendChild(outer_div);
 }
 
-function getBlocks() {
+function getBlocks(count) {
     "use strict";
-    var ref = firebase.database().ref('songs');
-    ref.on('value', function(snapshot) {
-        snapshot.forEach(function(childSnapshot) {
-            var octave = childSnapshot.val().octave,
-                note = childSnapshot.val().note,
-                title = childSnapshot.val().title,
-                artist = childSnapshot.val().artist,
-                sharp = childSnapshot.val().sharp;
-        
-        addBlock(octave, note, title, artist, sharp);
+    var i = 0, BreakException = {},
+        ref = firebase.database().ref('songs');
+    try {
+        ref.on('value', function(snapshot) {
+            snapshot.forEach(function(childSnapshot) {
+                var octave = childSnapshot.val().octave,
+                    note = childSnapshot.val().note,
+                    title = childSnapshot.val().title,
+                    artist = childSnapshot.val().artist,
+                    sharp = childSnapshot.val().sharp;
+
+                addBlock(octave, note, title, artist, sharp);
+                i++;
+                
+                if(i >= count) { throw BreakException; }
+            });
         });
-    });
+    } catch(e) {
+        if (e !== BreakException) throw e;
+    }
+    
 }
 
 function eraseBlocks() {

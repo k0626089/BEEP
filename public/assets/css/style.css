@@ -77,13 +77,59 @@ div.oct_4 {
 /*    font-family: 나눔고딕, 'Nanum Gothic', NanumGothic,  serif;*/
 }
 
+.btn-center {
+    text-align: center;
+}
+
 .footer {
-    height: 60px;
-    padding: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 82px;
+    padding: 10px;
+    position: absolute; 
     border: solid 1px #E7E7E7;
     background-color: #F8F8F8;
 }
 
-.btn-center {
-    text-align: center;
+.footer_title {
+    margin: 0px;
+    padding: 0px;
+    color: #303030;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer_content {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.narrow {
+    padding: 0px 23px;
+}
+
+.login {
+    margin: 10px 0px;
+}
+
+.login_title {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    color: #303030;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.login_content {
+    margin: 0px 0px 0px 5px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form_login {
+    margin-bottom: 300px;
 }
