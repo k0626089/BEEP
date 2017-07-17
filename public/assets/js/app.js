@@ -24,7 +24,7 @@ function addBlock(octave, note, title, artist, sharp) {
     title_p.appendChild(titlenode);
     artist_p.appendChild(artistnode);
     
-    octave_div.appendChild(sharp_p);
+    if(sharp) { octave_div.appendChild(sharp_p); }
     main_div.appendChild(title_p);
     main_div.appendChild(artist_p);
         
@@ -39,15 +39,26 @@ function addBlock(octave, note, title, artist, sharp) {
     document.getElementById("blocklist").appendChild(outer_div);
 }
 
-function getBlock() {
+function getBlocks() {
     "use strict";
-    firebase.database().ref('/songs/song-0000002').once('value').then(function(snapshot) {
-        var octave = snapshot.val().octave,
-            note = snapshot.val().note,
-            title = snapshot.val().title,
-            artist = snapshot.val().artist,
-            sharp = snapshot.val().sharp;
+    var ref = firebase.database().ref('songs');
+    ref.on('value', function(snapshot) {
+        snapshot.forEach(function(childSnapshot) {
+            var octave = childSnapshot.val().octave,
+                note = childSnapshot.val().note,
+                title = childSnapshot.val().title,
+                artist = childSnapshot.val().artist,
+                sharp = childSnapshot.val().sharp;
         
-        addBlock(octave, note, title, artist, sharp)
+        addBlock(octave, note, title, artist, sharp);
+        });
     });
+}
+
+function eraseBlocks() {
+    "use strict";
+    var blocklist = document.getElementById("blocklist");
+    while (blocklist.firstChild) {
+        blocklist.removeChild(blocklist.firstChild);
+    }
 }
