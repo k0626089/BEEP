@@ -105,13 +105,27 @@ function searchBlocks(count) {
                 a = artist.toUpperCase().replace(/\s/g, ''),
                 k = keyword.toUpperCase().replace(/\s/g, ''),
                 o = octave.toString(),
-                on = a.concat(o, "옥", note, o, "옥타브", note);
+                s1 = a.concat(o, "옥", note, o, "옥타브", note),
+                s2 = t.concat(o, "옥", note, o, "옥타브", note),
+                s3 = a.concat(t, o, "옥", note, o, "옥타브", note),
+                s4 = t.concat(a, o, "옥", note, o, "옥타브", note),
+                s5 = o.concat("옥", note, a, o, "옥타브", note, a),
+                s6 = o.concat("옥", note, t, o, "옥타브", note, t),
+                s7 = o.concat("옥", note, a, t, o, "옥타브", note, a, t),
+                s8 = o.concat("옥", note, t, a, o, "옥타브", note, t, a),
+                s9 = o.concat("옥", a, o, "옥타브", a),
+                s10 = o.concat("옥", t, o, "옥타브", t),
+                s11 = o.concat("옥", a, t, o, "옥타브", a, t),
+                s12 = o.concat("옥", t, a, o, "옥타브", t, a);
             
             if (i >= count) { return true; }
             else {
-                if (t.includes(k)) {
-                    addBlock(octave, note, title, artist, sharp);
-                } else if (on.includes(k)){
+                if (s1.includes(k) || s2.includes(k)
+                    || s3.includes(k) || s4.includes(k)
+                    || s5.includes(k) || s6.includes(k)
+                    || s7.includes(k) || s8.includes(k)
+                    || s9.includes(k) || s10.includes(k)
+                    || s11.includes(k) || s12.includes(k)) {
                     addBlock(octave, note, title, artist, sharp);
                 }
             }
