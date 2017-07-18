@@ -101,15 +101,19 @@ function searchBlocks(count) {
                 artist = childSnapshot.val().artist,
                 sharp = childSnapshot.val().sharp;
 
-            var t = title.toUpperCase(),
-                a = artist.toUpperCase(),
-                k = keyword.toUpperCase();
+            var t = title.toUpperCase().replace(/\s/g, ''),
+                a = artist.toUpperCase().replace(/\s/g, ''),
+                k = keyword.toUpperCase().replace(/\s/g, ''),
+                o = octave.toString(),
+                on = o.concat("옥", note, o, "옥타브", note);
             
             if (i >= count) { return true; }
             else {
                 if (t.includes(k)) {
                     addBlock(octave, note, title, artist, sharp);
                 } else if (a.includes(k)){
+                    addBlock(octave, note, title, artist, sharp);
+                } else if (on.includes(k)){
                     addBlock(octave, note, title, artist, sharp);
                 }
             }
