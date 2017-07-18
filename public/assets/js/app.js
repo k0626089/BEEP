@@ -1,3 +1,6 @@
+// initial values
+var page_item = 15
+
 // var type: str, str, str, str, int
 function addBlock(octave, note, title, artist, sharp) {
     "use strict";
@@ -39,7 +42,7 @@ function addBlock(octave, note, title, artist, sharp) {
     document.getElementById("blocklist").appendChild(outer_div);
 }
 
-function getBlocks(count) {
+function getBlocks() {
     "use strict";
     var i = 0,
         ref = firebase.database().ref('songs');
@@ -54,7 +57,7 @@ function getBlocks(count) {
             addBlock(octave, note, title, artist, sharp);
             i += 1;
 
-            if (i >= count) { return true; }
+            if (i >= page_item) { return true; }
         });
     });
 }
@@ -86,7 +89,7 @@ function eraseBlocks() {
     }
 }
 
-function searchBlocks(count) {
+function searchBlocks() {
     "use strict";
     eraseBlocks();
     
@@ -118,7 +121,7 @@ function searchBlocks(count) {
                 s11 = o.concat("옥", a, t, o, "옥타브", a, t),
                 s12 = o.concat("옥", t, a, o, "옥타브", t, a);
             
-            if (i >= count) { return true; }
+            if (i >= page_item) { return true; }
             else {
                 if (s1.includes(k) || s2.includes(k)
                     || s3.includes(k) || s4.includes(k)
@@ -132,4 +135,10 @@ function searchBlocks(count) {
             }
         });
     });
+}
+
+function more() {
+	eraseBlocks();
+	page_item += 10;
+	searchBlocks();
 }
