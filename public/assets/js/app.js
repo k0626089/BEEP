@@ -127,9 +127,9 @@ function searchBlocks(count) {
                     || s9.includes(k) || s10.includes(k)
                     || s11.includes(k) || s12.includes(k)) {
                     addBlock(octave, note, title, artist, sharp);
-                }
+					i += 1;
+                } 
             }
-            i += 1;
         });
     });
 }

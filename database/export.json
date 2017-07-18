@@ -1,0 +1,116 @@
+{
+  "songs" : {
+    "song-0000001" : {
+      "artist" : "엠씨더맥스(M.C The Max)",
+      "note" : "도",
+      "octave" : "3",
+      "sharp" : 0,
+      "title" : "잠시만 안녕(Original ver.)"
+    },
+    "song-0000002" : {
+      "artist" : "성시경",
+      "note" : "라",
+      "octave" : "2",
+      "sharp" : 1,
+      "title" : "안녕 나의 사랑"
+    },
+    "song-0000003" : {
+      "artist" : "버즈(Buzz)",
+      "note" : "솔",
+      "octave" : "2",
+      "sharp" : 0,
+      "title" : "사랑 뒤의 사랑"
+    },
+    "song-0000004" : {
+      "artist" : "김경호",
+      "note" : "미",
+      "octave" : "3",
+      "sharp" : 0,
+      "title" : "금지된 사랑"
+    },
+    "song-0000005" : {
+      "artist" : "넬(Nell)",
+      "note" : "시",
+      "octave" : "2",
+      "sharp" : 0,
+      "title" : "Stay"
+    },
+    "song-0000006" : {
+      "artist" : "버즈(Buzz)",
+      "note" : "시",
+      "octave" : "2",
+      "sharp" : 0,
+      "title" : "Monologue"
+    },
+    "song-0000007" : {
+      "artist" : "YB(윤도현 밴드)",
+      "note" : "솔",
+      "octave" : "2",
+      "sharp" : 0,
+      "title" : "사랑 Two"
+    },
+    "song-0000008" : {
+      "artist" : "야다",
+      "note" : "도",
+      "octave" : "3",
+      "sharp" : 1,
+      "title" : "이미 슬픈 사랑"
+    },
+    "song-0000009" : {
+      "artist" : "김경호",
+      "note" : "시",
+      "octave" : "2",
+      "sharp" : 0,
+      "title" : "희생"
+    },
+    "song-0000010" : {
+      "artist" : "부활",
+      "note" : "시",
+      "octave" : "2",
+      "sharp" : 0,
+      "title" : "Never Ending Story"
+    },
+    "song-0000011" : {
+      "artist" : "김경호",
+      "note" : "도",
+      "octave" : "3",
+      "sharp" : 0,
+      "title" : "이수"
+    },
+    "song-0000012" : {
+      "artist" : "엠씨더맥스(M.C The Max)",
+      "note" : "도",
+      "octave" : "3",
+      "sharp" : 0,
+      "title" : "행복하지 말아요"
+    },
+    "song-0000013" : {
+      "artist" : "이문세",
+      "note" : "도",
+      "octave" : "3",
+      "sharp" : 1,
+      "title" : "붉은 노을"
+    },
+    "song-0000014" : {
+      "artist" : "넬(Nell)",
+      "note" : "레",
+      "octave" : "3",
+      "sharp" : 0,
+      "title" : "믿어선 안될 말"
+    },
+    "song-0000015" : {
+      "artist" : "나얼",
+      "note" : "레",
+      "octave" : "3",
+      "sharp" : 0,
+      "title" : "귀로"
+    },
+    "song-0000016" : {
+      "artist" : "X Japan",
+      "note" : "레",
+      "octave" : "3",
+      "sharp" : 0,
+      "title" : "Endless Rain"
+    }
+  }
+}
