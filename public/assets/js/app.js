@@ -24,7 +24,7 @@ function addBlock(octave, note, title, artist, sharp) {
     title_p.appendChild(titlenode);
     artist_p.appendChild(artistnode);
     
-    if(sharp) { octave_div.appendChild(sharp_p); }
+    if (sharp) { octave_div.appendChild(sharp_p); }
     main_div.appendChild(title_p);
     main_div.appendChild(artist_p);
         
@@ -41,33 +41,79 @@ function addBlock(octave, note, title, artist, sharp) {
 
 function getBlocks(count) {
     "use strict";
+    var i = 0,
+        ref = firebase.database().ref('songs');
+    ref.on('value', function (snapshot) {
+        snapshot.forEach(function (childSnapshot) {
+            var octave = childSnapshot.val().octave,
+                note = childSnapshot.val().note,
+                title = childSnapshot.val().title,
+                artist = childSnapshot.val().artist,
+                sharp = childSnapshot.val().sharp;
+
+            addBlock(octave, note, title, artist, sharp);
+            i += 1;
+
+            if (i >= count) { return true; }
+        });
+    });
+}
+/*
+function getBlocks(count) {
+    "use strict";
     var i = 0, BreakException = {},
         ref = firebase.database().ref('songs');
-    try {
-        ref.on('value', function(snapshot) {
-            snapshot.forEach(function(childSnapshot) {
-                var octave = childSnapshot.val().octave,
-                    note = childSnapshot.val().note,
-                    title = childSnapshot.val().title,
-                    artist = childSnapshot.val().artist,
-                    sharp = childSnapshot.val().sharp;
+    ref.on('value', function (snapshot) {
 
-                addBlock(octave, note, title, artist, sharp);
-                i++;
-                
-                if(i >= count) { throw BreakException; }
-            });
-        });
-    } catch(e) {
-        if (e !== BreakException) throw e;
-    }
-    
+        for (i = 0; i < 15; i = i + 1) {
+            var octave = snapshot[i].val().octave,
+                note = snapshot[i].val().note,
+                title = snapshot[i].val().title,
+                artist = snapshot[i].val().artist,
+                sharp = snapshot[i].val().sharp;
+            
+            addBlock(octave, note, title, artist, sharp);
+        }
+        
+    });
 }
-
+*/
 function eraseBlocks() {
     "use strict";
     var blocklist = document.getElementById("blocklist");
     while (blocklist.firstChild) {
         blocklist.removeChild(blocklist.firstChild);
     }
+}
+
+function searchBlocks(count) {
+    "use strict";
+    eraseBlocks();
+    
+    var i = 0, ref = firebase.database().ref('songs'),
+        keyword = document.getElementById('searchbar').value;
+        
+    ref.on('value', function (snapshot) {
+        snapshot.forEach(function (childSnapshot) {
+            var octave = childSnapshot.val().octave,
+                note = childSnapshot.val().note,
+                title = childSnapshot.val().title,
+                artist = childSnapshot.val().artist,
+                sharp = childSnapshot.val().sharp;
+
+            var t = title.toUpperCase(),
+                a = artist.toUpperCase(),
+                k = keyword.toUpperCase();
+            
+            if (i >= count) { return true; }
+            else {
+                if (t.includes(k)) {
+                    addBlock(octave, note, title, artist, sharp);
+                } else if (a.includes(k)){
+                    addBlock(octave, note, title, artist, sharp);
+                }
+            }
+            i += 1;
+        });
+    });
 }

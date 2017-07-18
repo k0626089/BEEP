@@ -71,15 +71,19 @@
         <div class="container">
             <!-- Search bar -->
             <div class="form-group">
+                <!--
                 <form id="searchform">
                     <input type="text" class="form-control" id="searchbar" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
                     <script>
                         $('#searchform').submit(function () {
-                            addBlock('2', '솔', '제목', '가수', 0);
+                            eraseBlocks();
+                            getBlocks(15);
                             return false;
                         });
                     </script>
                 </form>
+                -->
+                <input type="text" class="form-control" id="searchbar" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요." onkeyup="searchBlocks(15)">
             </div>
             <div id="blocklist">
                 <!-- Song list -->
