@@ -47,7 +47,7 @@ Eric clapton-Wonderful Tonight-2-미-0
 송대관-인생은생방송-2-파-0
 신성우-사랑한후에-2-파-0
 안재욱-친구-2-파-0
-윤도현밴드-오 필승 코리아-2-파-0
+윤도현 밴드-오 필승 코리아-2-파-0
 이기찬-또한번 사랑은 가고-2-파-0
 임재범-편지-2-파-0
 임창정-Real Love-2-파-0
@@ -139,11 +139,11 @@ The name-The name-2-파-1
 예레미-왜그대그렇게-2-솔-0
 유리상자-Rainy night-2-솔-0
 윤건-내게오겠니-2-솔-0
-윤도현밴드-가을우체국앞에서-2-솔-0
-윤도현밴드-꿈꾸는 소녀-2-솔-0
-윤도현밴드-너를 보내고-2-솔-0
-윤도현밴드-먼훗날-2-솔-0
-윤도현밴드-사랑 Two-2-솔-0
+윤도현 밴드-가을우체국앞에서-2-솔-0
+윤도현 밴드-꿈꾸는 소녀-2-솔-0
+윤도현 밴드-너를 보내고-2-솔-0
+윤도현 밴드-먼훗날-2-솔-0
+윤도현 밴드-사랑 Two-2-솔-0
 윤종신-오래전그날-2-솔-0
 이동건-그게언제라도-2-솔-0
 이문세-소녀-2-솔-0
@@ -179,7 +179,7 @@ Elvis Presley-I Can't Help Falling In Love-2-솔-0
 Elvis Presley-Love Me Tender-2-솔-0
 Elvis Presley-Spanish Harlem-2-솔-0
 EVE-너 그럴때면-2-솔-0
-EVE-Eve (Don't Say Goodbye)-2-솔-0
+EVE-Eve(Don't Say Goodbye)-2-솔-0
 EVE-Ghost school-2-솔-0
 EVE-One-2-솔-0
 EVE-Wedding Cake-2-솔-0
@@ -244,7 +244,7 @@ Why-운명-2-솔-0
 여행스케치-왠지 느낌이 좋아-2-솔-1
 예레미-세상속에다주리-2-솔-1
 유리상자-순애보-2-솔-1
-윤도현밴드-흑백사진-2-솔-1
+윤도현 밴드-흑백사진-2-솔-1
 이루-까만안경-2-솔-1
 이문세-그대와영원히-2-솔-1
 이수훈-고백-2-솔-1
@@ -358,10 +358,10 @@ Y2K-헤어진후에-2-솔-1
 베이시스-세상의모든이별-2-라-0
 변진섭-너에게로 또다시-2-라-0
 변진섭-숙녀에게-2-라-0
-브라운아이즈-떠나지마-2-라-0
-브라운아이즈-비오는 압구정-2-라-0
-브라운아이즈-언제나 그랬죠-2-라-0
-브라운아이즈-점점-2-라-0
+브라운 아이드 소울-떠나지마-2-라-0
+브라운 아이드 소울-비오는 압구정-2-라-0
+브라운 아이드 소울-언제나 그랬죠-2-라-0
+브라운 아이드 소울-점점-2-라-0
 브라이언-사랑하지않으니까요-2-라-0
 샌디페플즈-나어떡해-2-라-0
 서지원-I miss you-2-라-0
@@ -406,9 +406,9 @@ Y2K-헤어진후에-2-솔-1
 윤건-어쩌다-2-라-0
 윤도현-길-2-라-0
 윤도현-사랑했나봐-2-라-0
-윤도현밴드-깨어나-2-라-0
-윤도현밴드-내게와줘-2-라-0
-윤도현밴드-사랑할꺼야-2-라-0
+윤도현 밴드-깨어나-2-라-0
+윤도현 밴드-내게와줘-2-라-0
+윤도현 밴드-사랑할꺼야-2-라-0
 윤종신-처음만날때처럼-2-라-0
 윤종신-환생-2-라-0
 윤현석-Love-2-라-0
@@ -464,7 +464,7 @@ Y2K-헤어진후에-2-솔-1
 토이-거짓말같은 시간-2-라-0
 토이-그럴 때 마다-2-라-0
 토이-길에서 만나다-2-라-0
-토이-너의곁에잠시살았다는걸-2-라-0
+토이-너의 곁에 잠시 살았다는걸-2-라-0
 토이-바람-2-라-0
 패닉-달팽이-2-라-0
 포지션-너에게-2-라-0
@@ -499,7 +499,6 @@ Bon Jovi-I'll be there for you-2-라-0
 버즈(Buzz)-일기-2-라-0
 버즈(Buzz)-활주-2-라-0
 버즈(Buzz)-My Darling(End)-2-라-0
-버즈(Buzz)-My Love(And)-2-라-0
 버즈(Buzz)-My Love(And)-2-라-0
 버즈(Buzz)-Go Away-2-라-0
 버즈(Buzz)-B612-2-라-0
@@ -548,13 +547,13 @@ S-미쳤었죠-2-라-0
 S-I Swear-2-라-0
 S.papa-참다행이야-2-라-0
 Santana-Smooth-2-라-0
-SG워너비-느림보 (코러스 3옥미)-2-라-0
-SG워너비-사랑가(Feat.윤민수) (코러스 3옥파)-2-라-0
+SG워너비-느림보(코러스 3옥미)-2-라-0
+SG워너비-사랑가(Feat.윤민수)(코러스 3옥파)-2-라-0
 SG워너비-사랑하길 정말 잘했어요-2-라-0
 SG워너비-죽을만큼 사랑했어요-2-라-0
 SG워너비-Ordninary People-2-라-0
 SG워너비-Timeless-2-라-0
-SG워너비&KCM-가시리 (코러스 3옥도)-2-라-0
+SG워너비&KCM-가시리(코러스 3옥도)-2-라-0
 Sky-반전-2-라-0
 Sol-슬픈혼잣말-2-라-0
 Tei-아프게 희망하기-2-라-0
@@ -780,10 +779,10 @@ Y2K-깊은슬픔-2-라-1
 유승준-나나나-2-시-0
 유승준-연가-2-시-0
 유영진-그대의 향기-2-시-0
-윤도현밴드-가리지좀 마-2-시-0
-윤도현밴드-돌고 돌고 돌고-2-시-0
-윤도현밴드-아리랑-2-시-0
-윤도현밴드-잊을께-2-시-0
+윤도현 밴드-가리지좀 마-2-시-0
+윤도현 밴드-돌고 돌고 돌고-2-시-0
+윤도현 밴드-아리랑-2-시-0
+윤도현 밴드-잊을께-2-시-0
 이기찬-자꾸만-2-시-0
 이승기-나방의 꿈-2-시-0
 이승기-음악시간-2-시-0
@@ -912,3 +911,597 @@ The Cross-백설공주를 사랑한 난쟁이-2-시-0
 Trax-초우-2-시-0
 UN-흰눈이 내리면-2-시-0
 Wanted-발작-2-시-0
+강우진-비망-3-도-0
+강우진-Love-3-도-0
+고유비-너를 위해-3-도-0
+고유비-Last love-3-도-0
+권진원-Beautiful Tonight-3-도-0
+김건모-미련-3-도-0
+김건모-버담소리-3-도-0
+김건모-사랑이 떠나가네-3-도-0
+김건모-얼굴-3-도-0
+김건모-짱가-3-도-0
+김건모-Double-3-도-0
+김경호-아버지(코러스 3옥라)-3-도-0
+김경호-이별보다 슬픈 사랑-3-도-0
+김경호-If I Leave Solid-3-도-0
+김돈규-단-3-도-0
+김민종-착한사랑-3-도-0
+김범수-보고 싶다-3-도-0
+김연우-연인-3-도-0
+김장훈-Honey-3-도-0
+김조한-Who are you-3-도-0
+김종국-그래요 그래도-3-도-0
+김종국-바보같은 나-3-도-0
+김종국-별,바람,햇살, 그리고 사랑-3-도-0
+김종국-여전히-3-도-0
+김종국-연습-3-도-0
+김종국-중독-3-도-0
+김종국-지우개-3-도-0
+김종국-편지-3-도-0
+김종국-하루만-3-도-0
+김종국-한남자-3-도-0
+김종국-Dream-3-도-0
+김종국-One Night-3-도-0
+김종국-Tonight-3-도-0
+김종서-아름다운 구속-3-도-0
+김종서-영원-3-도-0
+김종서-지금은 알수없어-3-도-0
+김현성-머리로 맘을 누르죠(가성)-3-도-0
+나얼-한번만 더-3-도-0
+노라조-사랑가-3-도-0
+노아-나란 사람-3-도-0
+노아-남겨진사랑-3-도-0
+노을-아파도아파도-3-도-0
+녹색지대-끝없는 사랑-3-도-0
+더클래식-마법의 성-3-도-0
+델리스파이스-Missing You-3-도-0
+동방신기-마법의 성-3-도-0
+동방신기-믿어요-3-도-0
+동방신기-Hi, ya ya 여름날-3-도-0
+듀크-스타리안-3-도-0
+미르-우연-3-도-0
+박상민-하나의사랑-3-도-0
+박완규-눈물없는 이별-3-도-0
+박완규-비상지아(非像之我)-3-도-0
+박진영-썸머징글벨-3-도-0
+박효신-Lost(가성)-3-도-0
+뱅크-그녀의생일-3-도-0
+부활-너에게로(애드립 3옥미b)-3-도-0
+부활-사랑할수록-3-도-0
+부활-추억이면-3-도-0
+부활-희야-3-도-0
+브라운 아이드 소울-그래도 되겠니-3-도-0
+빈티지블루-사랑은 사랑이..(가성)-3-도-0
+성시경-거리에서(가성)-3-도-0
+슈퍼주니어-K.R.Y.-한 사람만을-3-도-0
+시나위-크게 라디오를 켜고-3-도-0
+신화-I pray 4 U-3-도-0
+악동클럽-Remember-3-도-0
+야다-이미 슬픈 사랑-3-도-0
+얀-가세요 갈께요-3-도-0
+얀-天愛訴源-3-도-0
+예레미-허상의궁전-3-도-0
+윤도현밴드-오늘은-3-도-0
+이동건-나의바램이저하늘에닿기를-3-도-0
+이문세-조조할인-3-도-0
+이승기-삭제-3-도-0
+이승철-고백-3-도-0
+이승철-인연-3-도-0
+이승환-천일동안-3-도-0
+이지훈-왜 하늘은-3-도-0
+임재범-그대는 어디에-3-도-0
+임재범-사랑보다 깊은 상처-3-도-0
+임창정-그때또다시-3-도-0
+임창정-기다리는 이유-3-도-0
+임창정-나의 여백-3-도-0
+임창정-나의 연인-3-도-0
+임창정-날버린그녀가요즘연락을한다-3-도-0
+임창정-너에게모자란나-3-도-0
+임창정-슬픈혼잣말-3-도-0
+임창정-아이리스-3-도-0
+임창정-Love Affair-3-도-0
+자전거 탄 풍경-너에게난 나에게넌(코러스 3옥미)-3-도-0
+정일영-Love is-3-도-0
+정재욱-가만히 눈을 감고-3-도-0
+조규찬-그리움-3-도-0
+조성모-깊은밤을날아서-3-도-0
+조성모-두남자이야기-3-도-0
+조성모-못다한 한마디-3-도-0
+조성모-슬픈기대-3-도-0
+조성모-아시나요-3-도-0
+조성모-천번의 Kiss-3-도-0
+조성모-Love song-3-도-0
+조장혁-안녕-3-도-0
+최재훈-널 보낸 후에-3-도-0
+최재훈-마지막약속-3-도-0
+최재훈-사랑한 후에-3-도-0
+최재훈-외출-3-도-0
+최재훈-편지-3-도-0
+최재훈-함께 있으면 좋을 사람-3-도-0
+컨츄리꼬꼬-오!가니-3-도-0
+터보-검은고양이-3-도-0
+토이-여전히 아름다운지-3-도-0
+파란-내 가슴에 네 심장이 뛰나봐-3-도-0
+포지션-두려움없는사랑-3-도-0
+포지션-마지막 약속-3-도-0
+하동균-Always-3-도-0
+홍경민-그대,푸른바다를사랑하는가-3-도-0
+휘성-손톱달-3-도-0
+Backstreet Boys-As long as love me-3-도-0
+Beatles-Let it be(가성)(코러스 3옥미)-3-도-0
+Bill Withers-Just two of us-3-도-0
+Black beat-In the Sky-3-도-0
+Blue-One love-3-도-0
+DJdoc-Doc와 춤을-3-도-0
+DJdoc-Run to you-3-도-0
+Elton John-Daniel-3-도-0
+EVE-Come on-3-도-0
+EVE-Good bye(가성)-3-도-0
+Fire House-Here for you-3-도-0
+Fly to the Sky-약속-3-도-0
+Fly to the Sky-중력-3-도-0
+G.C Hammer-Club 아리랑(가성)-3-도-0
+Guns N' Roses-November Rain-3-도-0
+JNC-But-3-도-0
+K2-사랑을 드려요-3-도-0
+K2-슬프도록 아름다운-3-도-0
+K2-유리의 성-3-도-0
+K2-잃어버린너-3-도-0
+K2-하나뿐인 그대-3-도-0
+KCM-고맙습니다(코러스 3옥솔)-3-도-0
+KCM-악몽-3-도-0
+KCM-안녕-3-도-0
+엠씨더맥스(M.C The Max)-파애-3-도-0
+Mr.Big-Stay Together-3-도-0
+Mr.Big-Wild world-3-도-0
+넬(Nell)-고양이-3-도-0
+넬(Nell)-Good night-3-도-0
+넬(Nell)-Thank you-3-도-0
+Now N New-하나되어-3-도-0
+Openhead-내가아는세상에서-3-도-0
+Pantera-Fucking hostile-3-도-0
+Paper2-그렇게-3-도-0
+Queen-We are the champions-3-도-0
+Rhapsody-Emerald sword-3-도-0
+Richard Marx-Now and forever-3-도-0
+Rockband Cross-사랑하기에-3-도-0
+Se7en-열정-3-도-0
+SG워너비-비익조-3-도-0
+SG워너비-죄와벌(코러스 3옥파)-3-도-0
+SG워너비-The story-3-도-0
+SG워너비&김종국-바람만바람만(코러스 3옥라)-3-도-0
+Sol-Destiny(코러스 3옥라)-3-도-0
+Sting-Fragile-3-도-0
+Tei-그리움을 외치다-3-도-0
+The Cross-당신을 위하여-3-도-0
+The Cross-Reo corea-3-도-0
+The Cross-Time(코러스 3옥시)-3-도-0
+UN-그녀에게(코러스 3옥레)-3-도-0
+V.O.S-눈을보고말해요-3-도-0
+X Japan-Crucify My Love-3-도-0
+X Japan-Tears-3-도-0
+X Japan-The last song-3-도-0
+김경호-아스파라거스-3-도-1
+김경호-이수-3-도-1
+김경호-화인-3-도-1
+김경호-Yesterday-3-도-1
+김범수-가슴에 지는태양-3-도-1
+김범수-니가날떠나-3-도-1
+김범수-비가-3-도-1
+김범수-후회가 싫다-3-도-1
+김사랑-Feeling-3-도-1
+김종국-돌아와-3-도-1
+김종국-사랑한다는 말-3-도-1
+김종국-선물-3-도-1
+김종국-제자리걸음(코러스 3옥파)-3-도-1
+나얼-주 여호와는 광대하시도다-3-도-1
+네미시스-이클립스(eclipse)-3-도-1
+문희준-우리이야기(가성)-3-도-1
+박진영-난여자가있는데-3-도-1
+베이시스-좋은 사람 있으면 소개시켜줘-3-도-1
+브라운 아이드 소울-정말 사랑했을까-3-도-1
+브라운 아이드 소울-그녀가 나를 보네-3-도-1
+브라운 아이드 소울-벌써 일년-3-도-1
+브라운 아이드 소울-For You-3-도-1
+블랙비트-in the sky-3-도-1
+블랙신드롬-내곁에 내아픔이-3-도-1
+성시경-희재-3-도-1
+신화-바램-3-도-1
+신화-Angel-3-도-1
+신화-First love-3-도-1
+얀-恨(한)(悲 愛 來)-3-도-1
+윤도현 밴드-박하사탕-3-도-1
+윤여규-After-3-도-1
+이기찬-유리(가성)-3-도-1
+이기찬-춤추는나무(가성)-3-도-1
+임재범-너를위해-3-도-1
+임창정-날 닮은 너-3-도-1
+임창정-미련-3-도-1
+정일영-Reason-3-도-1
+정철-비가와-3-도-1
+조성모-Mr. Flower-3-도-1
+조성모-You&I-3-도-1
+지서련-울고싶어지는 오후-3-도-1
+클릭B-카우보이-3-도-1
+패닉-왼손잡이-3-도-1
+한경일-내 삶의 반-3-도-1
+홍지호-너를 위한 기도-3-도-1
+휘성-불치병-3-도-1
+Eagles-Hotel California-3-도-1
+Eric Clapton&Joe Cocker-You are so beautiful-3-도-1
+Europe-Final Countdown-3-도-1
+Fly To The Sky-사랑을모르다-3-도-1
+Hue-그대를 사랑하는-3-도-1
+K2-그녀의 연인에게-3-도-1
+KCM-태양의눈물(애드립 4옥도#)-3-도-1
+Loudness-Crazy Night-3-도-1
+엠씨더맥스(M.C The Max)-변함없는 나-3-도-1
+엠씨더맥스(M.C The Max)-One Love-3-도-1
+Michael Jackson-Beat It-3-도-1
+Michael Jackson-Heal the world-3-도-1
+Mr.Big-Green tinted sixties mind-3-도-1
+Ozzy Osbourne-Crazy Train-3-도-1
+Rockband Cross-비가와(애드립 3옥미)-3-도-1
+Stay-당신은바보입니다(가성)-3-도-1
+Stevie Wonder-Lately-3-도-1
+Stevie Wonder-Part-Time Lover-3-도-1
+The Cross-떠나가요 떠나지마요(애드립 3옥라)-3-도-1
+고유진-걸음이 느린 아이-3-레-0
+구본승-시련-3-레-0
+김건모-넌친구?난연인?-3-레-0
+김건모-부메랑-3-레-0
+김건모-스피드-3-레-0
+김경호-내게로와-3-레-0
+김경호-너를 사랑해-3-레-0
+김경호-마지막부를이름-3-레-0
+김경호-사랑, 그시린 아픔으로-3-레-0
+김경호-심판의 날-3-레-0
+김경호-아름답게 사랑하는 날까지-3-레-0
+김경호-Delete..-3-레-0
+김경호-Now-3-레-0
+김경호-Oasis-3-레-0
+김범수-하루-3-레-0
+김범수-To me-3-레-0
+김상민-Until-3-레-0
+김신우-마리-3-레-0
+김장훈-햇빛비추는날-3-레-0
+김종국-그대가 잠든 사이-3-레-0
+김종국-Broken Heart-3-레-0
+김종국-Sad Story-3-레-0
+김종서-별-3-레-0
+김종서-실연-3-레-0
+김종서-Epilogue-3-레-0
+김현성-날..(Revival)-3-레-0
+나얼-귀로-3-레-0
+네미시스-베르사이유의 장미-3-레-0
+노라조-해피송-3-레-0
+두리안-I'm still loving you-3-레-0
+문명진-하루하루-3-레-0
+문차일드-귀천-3-레-0
+문희준-아낌없이 주는나무(가성)-3-레-0
+미스미스터-널위한거야-3-레-0
+미카엘밴드-All For You-3-레-0
+박완규-욕망이란 이름-3-레-0
+박완규-천년의 사랑-3-레-0
+박효신-피아니스트(가성)-3-레-0
+뱅크-가을의 전설-3-레-0
+뱅크-가질 수 없는 너-3-레-0
+뱅크-이젠 널 인정하려해-3-레-0
+부활-슬픈바램-3-레-0
+심현보-사랑은 그런 것(가성)-3-레-0
+야다-Love Again-3-레-0
+얀-After-3-레-0
+윤여규-Cry-3-레-0
+일기예보-좋아좋아-3-레-0
+임창정-혼자만의이별-3-레-0
+조관우-마지막 안식처-3-레-0
+조관우-If I Leave Misty And Blue Song-3-레-0
+조성모-야상곡-3-레-0
+조성모-Ghost(영혼)-3-레-0
+조장혁-In my dream(가성)-3-레-0
+차진영-애니아-3-레-0
+최재훈-이별한 사람만이 아는 진실-3-레-0
+터보-회상-3-레-0
+터보-Goodbye Yesterday-3-레-0
+포맨-다시 사랑할수 있을까(코러스 3옥솔)-3-레-0
+포지션-후회없는사랑-3-레-0
+할리퀸-기도-3-레-0
+Big4-Untouchable(애드립 3옥솔)-3-레-0
+Bon jovi-Livin' On A Prayer-3-레-0
+Deep Purple-Burn-3-레-0
+Deep Purple-Smoke on the Water-3-레-0
+Deep Purple-Speed King-3-레-0
+Dream Theater-Pull Me Under-3-레-0
+EVE-아가페-3-레-0
+Extreme-Rest in peace-3-레-0
+Extreme-Suzi(Wants her all day what?)-3-레-0
+Fly to the sky-가슴아파도(가성)-3-레-0
+Fly to the sky-남자답게-3-레-0
+G.고릴라-영원토록-3-레-0
+Helloween-A tale that wasn't right-3-레-0
+Impellitteri-Warrior-3-레-0
+Iron Maiden-The Number Of The Beast-3-레-0
+K2-소유하지 않는사랑(애드립 3옥파)-3-레-0
+Kamelot-Karma-3-레-0
+Loudness-Crazy Doctor-3-레-0
+엠씨더맥스(M.C The Max)-해바라기도 가끔 목이 아프죠-3-레-0
+Michael Bolton-How am i supposed to live without you-3-레-0
+Mr.big-Daddy, brother, lover, little boy-3-레-0
+Pantera-Fucking hostile-3-레-0
+Queen-Too Much Love Will Kill You-3-레-0
+Rockband Cross-The day of rock kid(코러스 3옥파)-3-레-0
+Sting-Shape of My heart-3-레-0
+Tim-가끔씩 눈물이 나죠-3-레-0
+Wham-Careless Whisper-3-레-0
+X Japan-Endress Rain-3-레-0
+X Japan-Forever Love-3-레-0
+X Japan-Longing-3-레-0
+X Japan-Rose of pain-3-레-0
+X Japan-Silent jealousy-3-레-0
+김경호-비정-3-레-1
+김경호-영원의 성-3-레-1
+김경호-Dracura-3-레-1
+김명기-잔인한 너야 Part 2-3-레-1
+김종국-그녀의 남자에게-3-레-1
+김종국-남자니까-3-레-1
+김종국-슬픈 바램-3-레-1
+김종국-슬픈 축하-3-레-1
+김종국-용서해 기억해-3-레-1
+김종국-토요일밤-3-레-1
+김종국-Feeling-3-레-1
+김종국-One-3-레-1
+김현성-Heaven-3-레-1
+바이브-오래오래-3-레-1
+박완규-남겨진 날들-3-레-1
+박완규-After You've Gone-3-레-1
+베이시스-작별의식-3-레-1
+부활-Lonely Night-3-레-1
+브라운 아이드 소울-With Coffee-3-레-1
+서준서(B612)-나만의그대모습(코러스 3옥파)-3-레-1
+서지원-내눈물모아(가성)-3-레-1
+아이-내 마지막 사랑-3-레-1
+이승철-널보낸이유-3-레-1
+조성모-다음 사람에게는-3-레-1
+최재훈-비의 랩소디-3-레-1
+터보-어느 째즈바-3-레-1
+Crimson Glory-Lonely-3-레-1
+Guns N' Roses-Don't cry-3-레-1
+Guns N' Roses-Sweet child O' mine-3-레-1
+KCM-너에게 전하는 아홉가지 바램(코러스 3옥파)-3-레-1
+KCM-은영이에게-3-레-1
+KCM-일기장-3-레-1
+KCM-Smile again(코러스 4옥레)-3-레-1
+Openhead-강한남자-3-레-1
+Queen-Bohemian Rhapsody-3-레-1
+Skid row-18 & life-3-레-1
+Stratovarius-Phoenix-3-레-1
+Toni Braxton-Unbreak my heart-3-레-1
+4Non Bloades-What's Up-3-미-0
+김경호-와인-3-미-0
+김경호-Blood-3-미-0
+김상민-가시리-3-미-0
+김상민-Message-3-미-0
+김종국-친구에게서 연인으로-3-미-0
+김종국-태양가득히-3-미-0
+김종국-Love Story-3-미-0
+김종국-Thriller-3-미-0
+김창렬-약속-3-미-0
+노아-너만의 슬픈이별-3-미-0
+듀크-Good night-3-미-0
+락밴드크로스-However-3-미-0
+문명진-다알지만-3-미-0
+미르-절망-3-미-0
+바람꽃-돌아와-3-미-0
+바람꽃-붕어빵-3-미-0
+바람꽃-Till I fall in love with you(코러스 3옥라#)-3-미-0
+박완규-기다림에 지친 너에게-3-미-0
+박완규-Angel-3-미-0
+박효신-해줄 수 없는 일(가성)-3-미-0
+봄여름가을겨울-봄여름가을겨울-3-미-0
+시나위-farewell to love-3-미-0
+예레미-Tears(코러스 3옥라)-3-미-0
+윤여규-널 잊으려해-3-미-0
+이시영-It is the end-3-미-0
+이정봉-어떤가요-3-미-0
+이현섭-기도(가성)-3-미-0
+조성모-다시시작된사랑-3-미-0
+주니퍼-Fly high-3-미-0
+최재훈-떠나는 사람을 위해-3-미-0
+터보-Cyber Lover-3-미-0
+티삼스-매일매일 기다려-3-미-0
+플라워-한번도(가성)-3-미-0
+Billy seehan-Addicted to that rush-3-미-0
+Bon Jovi-Always-3-미-0
+D.O.A Guitar Project Band-Yesterday-3-미-0
+Don McLean-Vincent-3-미-0
+Dragonforce-Fury Of The Storm-3-미-0
+Dream theater-Another day-3-미-0
+Guns N Roses-Welcome To The Jungle-3-미-0
+Helloween-Eagle fly free-3-미-0
+Helloween-Future world-3-미-0
+Helloween-I Want Out-3-미-0
+Impellitteri-Power Of Love-3-미-0
+Impellitteri-Stand in line-3-미-0
+Impellitteri-Tonight i fly-3-미-0
+Iron Maiden-The Trooper-3-미-0
+KCM-마지막은영이에게-3-미-0
+KCM-알아요-3-미-0
+KCM-은영이에게 part 2-3-미-0
+Led Zepplin-Stair way to Heaven-3-미-0
+Loudness-Crazy Night-3-미-0
+Loudness-Like hell-3-미-0
+Metallica-Nothing else matters-3-미-0
+N.EX.T-인형의기사 part 2(가성)-3-미-0
+N.EX.T-Here I stand for you-3-미-0
+Nell-미아(迷我)-3-미-0
+Nell-백색왜성-3-미-0
+Pantera-Cowboys from hell-3-미-0
+Scorpions-Always somewhere-3-미-0
+Skid row-Wasted time-3-미-0
+Sonata Artica-Replica-3-미-0
+Stratovarius-Farher Time-3-미-0
+Stratovarius-Will the sun rise-3-미-0
+Stryper-I believe in you-3-미-0
+T-To my love-3-미-0
+김경호-슬픈 영혼의 아리아-3-파-0
+김경호-Goodbye to my love-3-파-0
+김범수-그대내게다시(가성)-3-파-0
+김범수-바보같은 내게-3-파-0
+김상민-You-3-파-0
+김종국-1434-3-파-0
+김종국-행복하길-3-파-0
+김종국-My way-3-파-0
+김종국-Night-3-파-0
+김태환-백합은 순수를 잃었다-3-파-0
+예레미-Black and white-3-파-0
+이덕진-Forever-3-파-0
+조성모-Best-3-파-0
+주니퍼-하늘끝에서 흘린 눈물-3-파-0
+터보-Stay-3-파-0
+Angra-Carry on-3-파-0
+Angra-Speed-3-파-0
+Brian McKnight-One Last Cry-3-파-0
+Deep Purple-Highway Star-3-파-0
+Edguy-Golden dawn-3-파-0
+Firehouse-I live my life for you-3-파-0
+Firehouse-Overnight Sensation-3-파-0
+Gamma ray-Gardens of the sinner-3-파-0
+Heavenly-Sign of winner-3-파-0
+Impellitteri-Rat race-3-파-0
+Judas Priest-Before the Dawn-3-파-0
+KCM-그대곁으로-3-파-0
+KCM-내겐 특별한 당신이죠(코러스 3옥라)-3-파-0
+KCM-행운-3-파-0
+KCM-You&I-3-파-0
+N.EX.T-절망에 관하여-3-파-0
+N.EX.T-Lazenca, Save us-3-파-0
+Primal fear-Metal is forever-3-파-0
+Primal fear-Running in the dust-3-파-0
+Primal fear-Speedking-3-파-0
+Skid row-I remember you-3-파-0
+Skid Row-Monkey Business-3-파-0
+Stratovarius-I'm still alive-3-파-0
+The Cross-Don't cry(애드립 3옥시)-3-파-0
+고유비-가지말아요-3-파-1
+김경호-마지막 기도-3-파-1
+김경호-Survival Game-3-파-1
+김종국-Angel-3-파-1
+야다-사랑이 슬픔에게-3-파-1
+윤도현 밴드-담배가게 아가씨-3-파-1
+임재범-Rock in Korea-3-파-1
+활-Say Yes-3-파-1
+KCM-흑백사진(코러스 3옥라)-3-파-1
+Skid row-Monkey Business-3-파-1
+강철-그대 내게 오는날(가성)-3-솔-0
+강형록-비창-3-솔-0
+고유비-꼭 기억해-3-솔-0
+김경호-Masquerade-3-솔-0
+김경호-Rock'n roll-3-솔-0
+김명기-소년의 꿈(둥근 달)-3-솔-0
+예레미-남겨진 나날들(코러스 3옥라#)-3-솔-0
+예레미-Miracle-3-솔-0
+임재범-The Same Old Story-3-솔-0
+조성모-불멸의사랑-3-솔-0
+활-Nightmare-3-솔-0
+Crimson glory-Dragon Lady-3-솔-0
+Heavenly-Destiny-3-솔-0
+Heavenly-Virus-3-솔-0
+Helloween-Mr.Ego(Take me down)-3-솔-0
+Impellitteri-lost in the rain-3-솔-0
+Insania-land of the wintersun-3-솔-0
+Led Zepplin-Rock N' Roll-3-솔-0
+Loudness-Heavy Chain-3-솔-0
+Mr.Big-Addicted to that rush-3-솔-0
+N.EX.T-이중인격자-3-솔-0
+Silent eye-Tears(소찬휘 원곡 Remake)-3-솔-0
+Skid row-Youth gone wild-3-솔-0
+Steel heart-I'll never let you go-3-솔-0
+Steel heart-She's gone-3-솔-0
+Stryper-The Way-3-솔-0
+Viper-moonlight-3-솔-0
+김경호-나를 슬프게 하는 사람들-3-솔-1
+김경호-나의 사랑 천상에서도-3-솔-1
+김명기-영혼의 사랑-3-솔-1
+김명기-한-3-솔-1
+백두산-The Moon On The Baek Doo Mountain-3-솔-1
+블랙홀-너무 긴 외로움-3-솔-1
+서태지-필승-3-솔-1
+이영준-내일로의 시작-3-솔-1
+조관우-축복-3-솔-1
+터보-애인이 생겼어요-3-솔-1
+Crimson glory-The Edge Of Forever-3-솔-1
+Crimson glory-Where dragons rule-3-솔-1
+Heed-Ashes-3-솔-1
+King Diamond-Abigai-3-솔-1
+Steelheart-All your love-3-솔-1
+Steelheart-Down 'N' Dirty-3-솔-1
+Steelheart-Gimme Gimme-3-솔-1
+Steelheart-I`ll never let you go-3-솔-1
+Steelheart-Wait-3-솔-1
+Stryper-Can't Stop The Rock-3-솔-1
+Stryper-Come To The Everlife-3-솔-1
+Stryper-More Than a Man-3-솔-1
+Stryper-Rock The People-3-솔-1
+Stryper-The Reign-3-솔-1
+Stryper-The Rock That Makes Me Roll-3-솔-1
+Stryper-The Writings On The Wall-3-솔-1
+Stryper-To Hell With The Devil-3-솔-1
+Stryper-Together Forever-3-솔-1
+김경호-자유인-3-라-0
+김경호-탈출-3-라-0
+김경호-Shout-3-라-0
+바람꽃-Rain Of the Night-3-라-0
+바람꽃-Rock'n roll-3-라-0
+시리우스-Crossroad-3-라-0
+AC/DC-Back In Black-3-라-0
+Crimson glory-Masque of the red death-3-라-0
+Crimson Glory-May Day-3-라-0
+Death-Painkiller-3-라-0
+Domine-hurricane master-3-라-0
+Jim Gillette-Head On-3-라-0
+Judas Priest-Painkiller-3-라-0
+Judas Priest-The Sentinal-3-라-0
+Lost Horizon-Again Will The Fire Burn-3-라-0
+Lost horizon-heart of storm-3-라-0
+Lost horizon-Lost in the Depths of Me-3-라-0
+Lost Horizon-Pure-3-라-0
+Lost Horizon-Think Not Forever-3-라-0
+Rockband Cross-심연-3-라-0
+S.jin-사랑해주셔서 감사했어요-3-라-0
+Steelheart-Like Never Before-3-라-0
+Steelheart-Steelheart-3-라-0
+The Cross-이별의 간주곡-3-라-0
+바람꽃-이젠-3-라-1
+예레미-진화론-3-라-1
+예레미-Acts-3-라-1
+Crimson glory-Eternal world-3-라-1
+Crimson glory-Lady of winter-3-라-1
+Crimson glory-Lost reflction-3-라-1
+Crimson Glory-Red Sharks-3-라-1
+Lost horizon-Cry of a Restless Soul-3-라-1
+Steelheart-Electric Love Child-3-라-1
+Steelheart-Loaded Mutha-3-라-1
+Steelheart-Rock 'N Roll-3-라-1
+Steelheart-Sheila-3-라-1
+Steelheart-Sticky side up-3-라-1
+바람꽃-비와 외로움(Rock Version)-3-시-0
+Asiana-Missing You-3-시-0
+Crimson glory-Heart of steel-3-시-0
+Crimson glory-Valhalla-3-시-0
+Domine-Defender-3-시-0
+Domine-True Believer-3-시-0
+Gim Gillette-Proud To Be Loud-3-시-0
+Madam X-High in high school-3-시-0
+Madam X-Stand Up And Fight-3-시-0
+Silent Eye-Death Penalty-3-시-0
+Silent Eye-Silent Eye-3-시-0
+Steel heart-Can't Stop Me Lovin' you-3-시-0
+Steelheart-Love ain`t easy-3-시-0
+Stryper-Cauht in the middle-3-시-0
+Stryper-Not that kind of guy-3-시-0
+The Cross-Fly 2 you-3-시-0
+KCM-Good bye(가성)-4-도-0
+Lost horizon-Sworm In The Metal Wind-4-도-0
+Stryper-In god we trust-4-도-0
+The Cross-세상의 중심에서 사랑을 외치다-4-도-0

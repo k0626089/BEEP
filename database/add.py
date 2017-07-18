@@ -12,14 +12,18 @@ def makeBlock(line, number) :
 	sharp = s[4]
 	
 	if len(s) == 5 :
-		return '"song-' + '{:07d}'.format(number) + '" : {\n      "artist" : "' + artist + '",\n      "note" : "' + note + '",\n      "octave" : "' + octave + '",\n      "sharp" : ' + sharp + ',\n      "title" : "' + title + '"\n    }'
+		return '"song-' + '{:07d}'.format(number) + '" : {\n      "artist" : "' + artist + '",\n      "note" : "' + note + '",\n      "octave" : "' + octave + '",\n      "sharp" : ' + sharp + ',\n      "title" : "' + title + '",\n      "view_count" : 0\n    }'
 	else :
 		return False
 	
 #print(head + makeBlock("성시경,안녕 나의 사랑,2,라,1", 2) +"\n" + tail)
 
 open('export.json', 'w').close()
-lines = [line.rstrip('\n') for line in open('data.txt')]
+lines = [line.rstrip('\n') for line in open('sorted.txt')]
+lines.sort()
+sorted_export = open('sorted.txt', 'w')
+for line in lines :
+	sorted_export.write(line + "\n")
 export = open('export.json', 'w', newline='')
 export.write(head)
 
@@ -28,8 +32,8 @@ for i in range(len(lines)) :
 		head += makeBlock(lines[i], i + 1)
 		export.write(makeBlock(lines[i], i + 1))
 
-		if "Buzz" in lines[i]: 
-			print(lines[i])
+#		if "Buzz" in lines[i]: 
+#			print(lines[i])
 		
 		if i + 1 < len(lines) :
 			head += ',\n    '
@@ -37,8 +41,8 @@ for i in range(len(lines)) :
 		else :
 			head += '\n'
 			export.write('\n')
-#	else :
-#		print("syntax error: " + lines[i])
+	else :
+		print("syntax error: " + lines[i])
 		
 head += tail
 export.write(tail)

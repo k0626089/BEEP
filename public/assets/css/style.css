@@ -164,7 +164,7 @@ div.oct_4 {
     font-size: 15px;
     font-weight: 500;
 	position: relative;
-    padding: 0px 0px 0px 4px;
+    padding: 0px 5px 0px 4px;
 }
 
 .footer_content {
@@ -184,11 +184,4 @@ div.oct_4 {
 
 .container .text-muted {
     margin: 20px 0;
-}
-
-.fb_button {
-	top: 30px;
-	margin: 0px;
-	position: sticky;
-	bottom: 0;
 }

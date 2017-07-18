@@ -1,5 +1,5 @@
 // initial values
-var page_item = 15
+var page_item = 15, current_key = '';
 
 // var type: str, str, str, str, int
 function addBlock(octave, note, title, artist, sharp) {
@@ -61,26 +61,7 @@ function getBlocks() {
         });
     });
 }
-/*
-function getBlocks(count) {
-    "use strict";
-    var i = 0, BreakException = {},
-        ref = firebase.database().ref('songs');
-    ref.on('value', function (snapshot) {
 
-        for (i = 0; i < 15; i = i + 1) {
-            var octave = snapshot[i].val().octave,
-                note = snapshot[i].val().note,
-                title = snapshot[i].val().title,
-                artist = snapshot[i].val().artist,
-                sharp = snapshot[i].val().sharp;
-            
-            addBlock(octave, note, title, artist, sharp);
-        }
-        
-    });
-}
-*/
 function eraseBlocks() {
     "use strict";
     var blocklist = document.getElementById("blocklist");
@@ -98,11 +79,14 @@ function searchBlocks() {
         
     ref.on('value', function (snapshot) {
         snapshot.forEach(function (childSnapshot) {
-            var octave = childSnapshot.val().octave,
+            var key = childSnapshot.key,
+			
+				octave = childSnapshot.val().octave,
                 note = childSnapshot.val().note,
                 title = childSnapshot.val().title,
                 artist = childSnapshot.val().artist,
-                sharp = childSnapshot.val().sharp;
+                sharp = childSnapshot.val().sharp,
+				view = childSnapshot.val().view_count;
 
             var t = title.toUpperCase().replace(/\s/g, ''),
                 a = artist.toUpperCase().replace(/\s/g, ''),
@@ -129,8 +113,10 @@ function searchBlocks() {
                     || s7.includes(k) || s8.includes(k)
                     || s9.includes(k) || s10.includes(k)
                     || s11.includes(k) || s12.includes(k)) {
+                    
                     addBlock(octave, note, title, artist, sharp);
-					i += 1;
+//					firebase.database().ref().child('/songs/' + key + '/view_count').set(view + 1);
+                    i += 1;
                 } 
             }
         });
@@ -138,7 +124,23 @@ function searchBlocks() {
 }
 
 function more() {
+	"use strict";
 	eraseBlocks();
 	page_item += 10;
 	searchBlocks();
 }
+
+//function upView_count() {
+//    "use strict";
+//    var i = 0, ref = firebase.database().ref('songs'),
+//        keyword = document.getElementById('searchbar').value;
+//        
+//    ref.on('value', function (snapshot) {
+//        snapshot.forEach(function (childSnapshot) {
+//			var key = childSnapshot.key,
+//				view = childSnapshot.val().view_count;
+//
+//			firebase.database().ref().child('/songs/' + key + '/view_count').set(view + 1);
+//		});
+//	} 
+//}

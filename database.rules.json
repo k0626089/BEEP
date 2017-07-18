@@ -1,6 +1,13 @@
 {
   "rules": {
     ".read": true,
-    ".write": "auth != null"
+	".write": false,
+    "songs": {
+      "$song": {
+        "view_count": {
+          ".write": true
+        }
+      }
+    }
   }
 }
