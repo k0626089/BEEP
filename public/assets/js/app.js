@@ -134,6 +134,30 @@ function more() {
 	searchBlocks();
 }
 
+function more() {
+	"use strict";
+	page_item += 10;
+	searchBlocks();
+}
+
+function init() {
+//	loading();
+	getBlocks();
+	setTimeout(remove_image, 1200);	
+}
+
+function reset_page() {
+	"use strict";
+	page_item = 15;
+	searchBlocks();
+}
+
+function remove_image() {
+	if(document.getElementById('loading').style.display != 'none') {
+		document.getElementById('loading').style.display = 'none';
+	}
+}
+
 //function upView_count() {
 //    "use strict";
 //    var i = 0, ref = firebase.database().ref('songs'),
