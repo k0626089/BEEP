@@ -95,18 +95,23 @@
                 <input type="text" class="form-control" id="searchbar" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요." onkeyup="searchBlocks()">
 				-->
             </div>
-            <div id="blocklist">
+            <div id="blocklist" class="blocklist">
                 <!-- Song list -->
 				<div class="text-center">
 					<img src="assets/image/Pacman.gif" alt="Mountain View" style="height: 50;" id="loading">
 				</div>
             </div>
+			<div class="text-center more">
+				<img src="assets/image/more.png" alt="Mountain View" style="height: 25;" id="loading" onclick="more()">
+			</div>
         </div>
         <footer class="footer">
             <div class="container">
+			<!--
 			<ul class="pager">
                 <li><a onclick="more()">더보기</a></li>
             </ul>
+			-->
             <a class="footer_title" href="login.html">
                 Made by
             </a>
