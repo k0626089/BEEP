@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-lightgrey.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
 
 ## 사용방법
-<img src="public/assets/image/searchbar.png" height="55">
+<img src="public/assets/image/searchbar.png" width="400">
 
 ### 검색
 옥타브, 음, 노래 제목과 가수를 순서와 상관없이 입력해주시면 됩니다.
@@ -24,3 +24,12 @@
     안녕나의사랑 (O)
     2옥타브 (O)
     김경호 2옥 (O)
+
+### 검색결과
+<img src="public/assets/image/indicators3.png" width="200">
+
+옥타브는 색으로 표시되며, 왼쪽부터 순서대로 1, 2, 3, 4 옥타브를 나타냅니다.
+
+#### 검색결과 예시
+<img src="public/assets/image/searchexample.png" width="400">
+이 결과는 "2옥타브 라"를 나타냅니다.
