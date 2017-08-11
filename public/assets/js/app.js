@@ -100,7 +100,7 @@ function searchBlocks() {
                 e_artist = artist.split("(")[1];
                 e_artist = artist.split(")")[0];
 
-            var t = title.toUpperCase().replace(/\s/g, ''),
+            var t = title.toUpperCase().replace(/\s|\.|,/g, ''),
                 ka = k_artist.toUpperCase().replace(/\s/g, ''),
                 ea = e_artist.toUpperCase().replace(/\s/g, ''),
                 k = keyword.toUpperCase().replace(/\s/g, ''),
