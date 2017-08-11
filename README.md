@@ -2,6 +2,8 @@
 
 [![Demo Site](https://img.shields.io/badge/demo-site-35A4E9.svg)](https://beep.ga)
 [![Google Firebase](https://img.shields.io/badge/google-firebase-orange.svg)](https://firebase.google.com)
+[![Bootstrap](https://img.shields.io/badge/bootstrap-3.3.7-blue.svg)](http://blog.getbootstrap.com/2016/07/25/bootstrap-3-3-7-released/)
+[![Jquery](https://img.shields.io/badge/jquery-3.2.1-blue.svg)](https://blog.jquery.com/2017/03/20/jquery-3-2-1-now-available/)
 [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-lightgrey.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
 
 ## <img src="public/assets/image/bw.png" height="20"> 이란
