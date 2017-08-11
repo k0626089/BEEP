@@ -1,4 +1,4 @@
-# <img src="public/assets/image/beep-beta2.png" width="100">
+# <img src="public/assets/image/beep-beta2.png" width="120">
 
 [![Demo Site](https://img.shields.io/badge/demo-site-35A4E9.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
 [![Google Firebase](https://img.shields.io/badge/google-firebase-orange.svg)](https://firebase.google.com)
@@ -13,8 +13,24 @@
 
 #### 검색 규칙
 - 옥타브는 "옥타브" 와 "옥" 모두 사용 가능합니다.
+
+        3옥레 (O)
+        3옥타브 레 (O)
+
 - 모든 부분 띄어쓰기는 생략 가능합니다.
+
+        금지된사랑 (O)
+        금지된 사랑 (O)
+
 - 노래 제목이나 이름이 영어인 경우는 한글과 영어 모두 검색 가능합니다.
+
+        Nell Stay (O)
+        넬 Stay (O)
+
+- 검색 항목의 순서는 어떻게 입력해도 무관합니다.
+
+        테이 같은베개 (O)
+        같은베개 테이 (O)
 
 #### 검색 예시
 
