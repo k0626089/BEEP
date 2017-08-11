@@ -32,5 +32,10 @@
 옥타브는 색으로 표시되며, 왼쪽부터 순서대로 1, 2, 3, 4 옥타브를 나타냅니다.
 
 #### 검색결과 예시
-<img src="public/assets/image/searchexample.png" width="400">
-이 결과는 "2옥타브 라"를 나타냅니다.
+<img src="public/assets/image/searchexample1.png" width="400">
+
+    이 결과는 "2옥타브 라"를 나타냅니다.
+
+<img src="public/assets/image/searchexample2.png" width="400">
+
+    이 결과는 "3옥타브 도#"을 나타냅니다.
