@@ -4,7 +4,7 @@
 [![Google Firebase](https://img.shields.io/badge/google-firebase-orange.svg)](https://firebase.google.com)
 [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-lightgrey.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
 
-## <img src="public/assets/image/beep-beta2.png" height="20"> 이란
+## <img src="public/assets/image/bw.png" height="20"> 이란
 
 노래의 최고음을 검색할 수 있는 검색엔진 입니다.
 
