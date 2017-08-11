@@ -4,6 +4,9 @@
 [![Google Firebase](https://img.shields.io/badge/google-firebase-orange.svg)](https://firebase.google.com)
 [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-lightgrey.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
 
+## 스크린샷
+<img src="public/assets/image/screenshot.png" width="360">
+
 ## 사용방법
 ### 검색
 <img src="public/assets/image/searchbar.png" width="350">
