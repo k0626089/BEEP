@@ -41,7 +41,7 @@
         <meta name="theme-color" content="#ffffff">
     </head>
     
-    <body onload="init()">
+    <body onload="getBlocks()">
 		<div id="fb-root"></div>
 		<!-- facebook script -->
 		<script>(function(d, s, id) {
@@ -77,12 +77,12 @@
                 </div>
             </div>
         </nav>
-        <div class="container">
+        <div class="container" id="container">
             <!-- Search bar -->
             <div class="form-group">
                 
                 <form id="searchform">
-                    <input type="text" class="form-control search_bar" id="searchbar" onkeyup="searchBlocks()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요." onclick="reset_page()">
+                    <input type="text" class="form-control search_bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
                     <script>
                         $('#searchform').submit(function () {
 //                            eraseBlocks();
@@ -101,9 +101,11 @@
 					<img src="assets/image/Pacman.gif" alt="Mountain View" style="height: 50;" id="loading">
 				</div>
             </div>
+<!--
 			<div class="text-center more">
-				<img src="assets/image/more.png" alt="Mountain View" style="height: 25;" id="loading" onclick="more()">
+				<img src="assets/image/more.png" alt="Mountain View" style="height: 25;" onclick="more()">
 			</div>
+-->
         </div>
         <footer class="footer">
             <div class="container">
@@ -119,7 +121,6 @@
             <p class="footer_content">k0626089@gmail.com</p>
             <p class="footer_content">한양대학교 16학번 김인제</p>
             </div>
-            
         </footer>
     </body>
 </html>
