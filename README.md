@@ -5,9 +5,8 @@
 [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-lightgrey.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
 
 ## 사용방법
-<img src="public/assets/image/searchbar.png" width="400">
-
 ### 검색
+<img src="public/assets/image/searchbar.png" width="400">
 옥타브, 음, 노래 제목과 가수를 순서와 상관없이 입력해주시면 됩니다.
 ##### ♯ 과 ♭ 검색은 아직 지원되지 않습니다.
 
@@ -24,8 +23,9 @@
     2옥라 버즈 (O)
     3옥타브 엠씨더맥스 (O)
     안녕나의사랑 (O)
-    2옥타브 (O)
     김경호 2옥 (O)
+    버즈 가시 (X)
+    고기먹고싶다 (X)
 
 ### 검색결과
 <img src="public/assets/image/indicators3.png" width="200">
