@@ -1,6 +1,6 @@
 # <img src="public/assets/image/beep-beta2.png" width="120">
 
-[![Demo Site](https://img.shields.io/badge/demo-site-35A4E9.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
+[![Demo Site](https://img.shields.io/badge/demo-site-35A4E9.svg)](https://beep-a7112.firebaseapp.com/index.html#)
 [![Google Firebase](https://img.shields.io/badge/google-firebase-orange.svg)](https://firebase.google.com)
 [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-lightgrey.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
 
