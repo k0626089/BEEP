@@ -49,7 +49,9 @@ function addBlock(octave, note, title, artist, sharp) {
 
 function getBlocks() {
     "use strict";
+	
     var i = 0, ref = firebase.database().ref('songs');
+	
     ref.on('value', function (snapshot) {
         snapshot.forEach(function (childSnapshot) {
             var octave = childSnapshot.val().octave,
@@ -57,11 +59,15 @@ function getBlocks() {
                 title = childSnapshot.val().title,
                 artist = childSnapshot.val().artist,
                 sharp = childSnapshot.val().sharp;
-
-            addBlock(octave, note, title, artist, sharp);
-            i += 1;
-
-            if (i >= page_item) { return true; }
+            
+            if (i >= page_item) { 
+				remove_image();
+				more_button();
+				return true;
+			} else {
+				addBlock(octave, note, title, artist, sharp);
+            	i += 1;
+			}
         });
     });
 }
@@ -76,7 +82,6 @@ function eraseBlocks() {
 
 function searchBlocks() {
     "use strict";
-    eraseBlocks();
     
     var i = 0, ref = firebase.database().ref('songs'),
         keyword = document.getElementById('searchbar').value;
@@ -109,8 +114,10 @@ function searchBlocks() {
                 s11 = o.concat("옥", a, t, o, "옥타브", a, t),
                 s12 = o.concat("옥", t, a, o, "옥타브", t, a);
             
-            if (i >= page_item) { return true; }
-            else {
+            if (i >= page_item) { 
+				more_button();
+				return true;
+			} else {
                 if (s1.includes(k) || s2.includes(k)
                     || s3.includes(k) || s4.includes(k)
                     || s5.includes(k) || s6.includes(k)
@@ -127,28 +134,34 @@ function searchBlocks() {
     });
 }
 
+function more_button() {
+	var outer_div = document.createElement("div"),
+		more = document.createElement("img");
+
+	outer_div.className = "text-center more";
+	outer_div.setAttribute("id", "more_button");
+
+//	more.setAttribute("id", "more_button");
+	more.setAttribute("onclick", "more()");
+	more.setAttribute("alt", "Mountain View");
+	more.setAttribute("style", "height: 25;");
+	more.setAttribute("src", "assets/image/more.png");
+
+	outer_div.appendChild(more);
+	document.getElementById("container").appendChild(outer_div);
+}
+
 function more() {
 	"use strict";
+	page_item += 10;
 	eraseBlocks();
-	page_item += 10;
 	searchBlocks();
 }
 
-function more() {
-	"use strict";
-	page_item += 10;
-	searchBlocks();
-}
-
-function init() {
-//	loading();
-	getBlocks();
-	setTimeout(remove_image, 1200);	
-}
-
-function reset_page() {
+function search() {
 	"use strict";
 	page_item = 15;
+	eraseBlocks();
 	searchBlocks();
 }
 
@@ -157,18 +170,3 @@ function remove_image() {
 		document.getElementById('loading').style.display = 'none';
 	}
 }
-
-//function upView_count() {
-//    "use strict";
-//    var i = 0, ref = firebase.database().ref('songs'),
-//        keyword = document.getElementById('searchbar').value;
-//        
-//    ref.on('value', function (snapshot) {
-//        snapshot.forEach(function (childSnapshot) {
-//			var key = childSnapshot.key,
-//				view = childSnapshot.val().view_count;
-//
-//			firebase.database().ref().child('/songs/' + key + '/view_count').set(view + 1);
-//		});
-//	} 
-//}
