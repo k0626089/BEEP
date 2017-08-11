@@ -4,12 +4,14 @@
 [![Google Firebase](https://img.shields.io/badge/google-firebase-orange.svg)](https://firebase.google.com)
 [![GitHub license](https://img.shields.io/badge/license-GPL%202.0-lightgrey.svg)](https://github.com/k0626089/BEEP/blob/master/LICENSE)
 
-## 스크린샷
-<img src="public/assets/image/screenshot.png" width="360">
+## <img src="public/assets/image/beep-beta2.png" height="20"> 이란
+
+노래의 최고음을 검색할 수 있는 검색엔진 입니다.
 
 ## 사용방법
 ### 검색
 <img src="public/assets/image/searchbar.png" width="350">
+
 옥타브, 음, 노래 제목과 가수를 순서와 상관없이 입력해주시면 됩니다.
 
 ##### ♯ 과 ♭ 검색은 아직 지원되지 않습니다.
@@ -56,3 +58,6 @@
 <img src="public/assets/image/searchexample2.png" width="350">
 
     이 결과는 "3옥타브 도♯"을 나타냅니다.
+
+## 스크린샷
+<img src="public/assets/image/screenshot.png" width="360">
