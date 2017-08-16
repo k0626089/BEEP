@@ -24,7 +24,7 @@
         <script type="text/javascript" src="assets/js/app.js"></script>
         
         <!-- css -->
-        <link href="assets/css/index.css" rel="stylesheet">
+        <link href="assets/css/style_new.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         
         <!-- favicon -->
@@ -47,31 +47,25 @@
         <meta name="theme-color" content="#ffffff">
     </head>
     
-    <body onload="getBlocks()">
-        <!-- banner photo -->
-        <img src="assets/image/banner.png" alt="Mountain View" style="height: 33px; display: none">
-        
+    <body>
         <!-- facebook script -->
 		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
+		<script>
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
         
-        <!-- Nav bar -->
+        <!-- Search box -->
         <div class="search-box">
             <div class="navbar-header">
                 <!-- Logo -->
                 <a href="index.html">
-                    <img src="assets/image/logo_white.png" alt="Mountain View" style="height: 33px;">
-                </a>
-                
-                <!-- Menu button -->
-                <a class="menu-button" onclick="open_menu()">
-                    <img src="assets/image/menu2.png" alt="Mountain View" style="height: 26px;">
+                <img src="assets/image/logo_white.png" alt="Mountain View" style="height: 33px;">
                 </a>
             </div>
             
@@ -79,44 +73,21 @@
             <input type="text" class="form-control search-bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
         </div>
         
-        <!-- Side menu -->
-        <div id="side-menu" class="side-menu">
-            <a class="closebutton" onclick="close_menu()">
-                <img src="assets/image/close.png" alt="Mountain View" style="height: 26px;">
-            </a>
-            <!-- Menu contents -->
-        </div>
-        
-        <!-- Main -->
-        <div class="container" id="main">
-            <div id="blocklist" class="blocklist">
-                <!-- Song list -->
-				<div class="text-center">
-					<img src="assets/image/Pacman.gif" alt="Mountain View" style="height: 50;" id="loading">
-				</div>
+        <div id="blocklist" class="blocklist">
+            <!-- Song list -->
+            <div class="text-center">
+                <img src="assets/image/Pacman.gif" alt="Mountain View" style="height: 50;" id="loading">
             </div>
         </div>
         
-        <!-- More button -->
-        <div id="more"></div>
-        
-<!--
-        <a id="more-button" class="more-button" onclick="more()">
-            <img src="assets/image/more4.png" alt="Mountain View" style="height: 10;" id="loading">
-        </a>
--->
-        
-<!--
+        <!-- Footer -->
         <footer class="footer">
-            <div class="container">
             <a class="footer_title" href="login.html">
                 Made by
             </a>
 			<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fbeep-a7112.firebaseapp.com%2Findex.html%23&width=105&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" width="150" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             <p class="footer_content">k0626089@gmail.com</p>
             <p class="footer_content">한양대학교 16학번 김인제</p>
-            </div>
         </footer>
--->
     </body>
 </html>
