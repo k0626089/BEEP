@@ -3,10 +3,6 @@ html {
     position: relative;
 }
 
-body {
-    margin-bottom: 85px;
-}
-
 /* Search box */
 .search-box {
     border: 0;
@@ -42,6 +38,10 @@ body {
 }
 
 /* Content */
+div.blocklist {
+    margin-bottom: 45px;
+}
+
 div.circle {
     float:left;
     width: 61px;
@@ -120,6 +120,8 @@ div.oct_4 {
     border-style: solid;
     border-color: #1484E4;
     border-width: 4px 0px 4px 0px;
+    position: absolute;
+    bottom: 0px;
 }
 
 .more-button:active {

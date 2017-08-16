@@ -44,7 +44,6 @@ function addBlock(octave, note, title, artist, sharp) {
 
 function getBlocks() {
     "use strict";
-	
     var i = 0, ref = firebase.database().ref('songs');
 	
     ref.on('value', function (snapshot) {
@@ -77,7 +76,6 @@ function eraseBlocks() {
 
 function searchBlocks() {
     "use strict";
-    
     var i = 0, ref = firebase.database().ref('songs'),
         keyword = document.getElementById('searchbar').value;
         
