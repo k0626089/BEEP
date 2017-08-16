@@ -81,6 +81,10 @@ function searchBlocks() {
     "use strict";
     var i = 0, ref = firebase.database().ref('songs'),
         keyword = document.getElementById('searchbar').value;
+    var more = document.getElementById("more");
+        while (more.firstChild) {
+            more.removeChild(more.firstChild);
+        }
         
     ref.on('value', function (snapshot) {
         snapshot.forEach(function (childSnapshot) {
@@ -124,6 +128,7 @@ function searchBlocks() {
                 s21 = o.concat("옥", t, ea, o, "옥타브", t, ea);
             
             if (i >= page_item) { 
+                more_button();
 				return true;
 			} else {
                 if (s1.includes(k) || s2.includes(k)
