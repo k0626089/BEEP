@@ -92,7 +92,11 @@ div.circle {
 
 div.oct_1 {
     color: #525E6A;
-    background-color: #C7D0D6;
+    background: #B7B7B7;
+    background: -moz-linear-gradient(45deg,  #B7B7B7 0%, #EAEAEA 100%);
+    background: -webkit-linear-gradient(45deg,  #B7B7B7 0%,#EAEAEA 100%);
+    background: linear-gradient(45deg,  #B7B7B7 0%,#EAEAEA 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B7B7B7', endColorstr='#EAEAEA',GradientType=1 );
 }
 
 div.oct_2 {
@@ -115,7 +119,11 @@ div.oct_3 {
 
 div.oct_4 {
     color: #C5C8CA;
-    background-color: #3E454C;
+    background: #343F49;
+    background: -moz-linear-gradient(45deg,  #343F49 0%, #5F6468 100%);
+    background: -webkit-linear-gradient(45deg,  #343F49 0%,#5F6468 100%);
+    background: linear-gradient(45deg,  #343F49 0%,#5F6468 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343F49', endColorstr='#5F6468',GradientType=1 );
 }
 
 /* more */
@@ -220,7 +228,7 @@ a.side-menu {
 */
 
 .paypal {
-    padding-left: 38px;
+    padding-left: 39px;
 }
 
 .copyright {
