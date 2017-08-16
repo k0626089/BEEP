@@ -211,15 +211,16 @@ a.side-menu {
     margin-bottom: 10px;
 }
 
+/*
 .social-buttons {
     left: 21px;
     position: relative;
     margin-bottom: 10px;
 }
+*/
 
 .paypal {
-    bottom: 6px;
-    position: relative;
+    padding-left: 38px;
 }
 
 .copyright {
