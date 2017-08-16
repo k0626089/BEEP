@@ -201,13 +201,9 @@ a.side-menu {
     margin-bottom: 10px;
 }
 
-/*
 .social-buttons {
-    left: 21px;
-    position: relative;
-    margin-bottom: 10px;
+    transition: 0.3s;
 }
-*/
 
 .paypal {
     padding-left: 39px;

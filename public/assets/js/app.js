@@ -189,12 +189,14 @@ function remove_image() {
 
 function open_menu() {
     document.getElementById("copyright").style.fontSize = "11px";
+    document.getElementById("social-buttons").style.display = "block";
     document.getElementById("menu-items").style.fontSize = "27px";
     document.getElementById("side-menu").style.width = "250px";
 }
 
 function close_menu() {
     document.getElementById("copyright").style.fontSize = "0";
+    document.getElementById("social-buttons").style.display = "none";
     document.getElementById("menu-items").style.fontSize = "0";
     document.getElementById("side-menu").style.width = "0";
 }
