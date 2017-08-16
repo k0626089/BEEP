@@ -44,6 +44,7 @@ function addBlock(octave, note, title, artist, sharp) {
 
 function getBlocks() {
     "use strict";
+    eraseBlocks();
     var i = 0, ref = firebase.database().ref('songs');
 	
     ref.on('value', function (snapshot) {

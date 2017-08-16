@@ -50,6 +50,11 @@ div.blocklist {
     margin-bottom: 45px;
 }
 
+.load {
+    padding-top: 125px;
+    text-align: center;
+}
+
 div.circle {
     float:left;
     width: 61px;
