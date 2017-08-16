@@ -57,7 +57,7 @@ function getBlocks() {
             
             if (i >= page_item) { 
 				remove_image();
-				more_button();
+//				more_button();
 				return true;
 			} else {
 				addBlock(octave, note, title, artist, sharp);
@@ -123,7 +123,7 @@ function searchBlocks() {
                 s21 = o.concat("옥", t, ea, o, "옥타브", t, ea);
             
             if (i >= page_item) { 
-				more_button();
+//				more_button();
 				return true;
 			} else {
                 if (s1.includes(k) || s2.includes(k)

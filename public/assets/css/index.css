@@ -114,13 +114,16 @@ div.oct_4 {
 .more-button {
     width: 100%;
     display: block;
-    
     padding: 13px 0px;
     text-align: center;
     background: #FCFCFC;
     border-style: solid;
     border-color: #1484E4;
     border-width: 4px 0px 4px 0px;
+}
+
+.more-button:active {
+    background: #B7E4FF;
 }
 
 /* Footer */
