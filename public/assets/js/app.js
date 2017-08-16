@@ -188,9 +188,13 @@ function remove_image() {
 }
 
 function open_menu() {
+    document.getElementById("copyright").style.fontSize = "11px";
+    document.getElementById("menu-items").style.fontSize = "27px";
     document.getElementById("side-menu").style.width = "250px";
 }
 
 function close_menu() {
+    document.getElementById("copyright").style.fontSize = "0";
+    document.getElementById("menu-items").style.fontSize = "0";
     document.getElementById("side-menu").style.width = "0";
 }
