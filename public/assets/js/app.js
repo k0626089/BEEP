@@ -42,11 +42,6 @@ function addBlock(octave, note, title, artist, sharp) {
     document.getElementById("blocklist").appendChild(outer_div);
 }
 
-//function format(str, max) {
-//  	str = str.toString();
-//  	return str.length < max ? pad("0" + str, max) : str;
-//}
-
 function getBlocks() {
     "use strict";
 	
