@@ -22,6 +22,11 @@ html {
     margin-bottom: 13px;
 }
 
+.menu-button {
+    float: right;
+    padding: 6px 4px;
+}
+
 .form-control.search-bar {
     height: 42px;
     border: none;
@@ -157,4 +162,40 @@ div.oct_4 {
     font-weight: 300;
 	position: relative;
     padding: 0px 0px 0px 4px;
+}
+
+/* Side Menu */
+.side-menu {
+    top: 0;
+    right: 0;
+    width: 0;
+    z-index: 1;
+    height: 100%;
+    position: fixed;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-x: hidden;
+    background: #00AFFF;
+    box-shadow: 0px 0px 7px #303030;
+    -webkit-box-shadow: 0px 0px 7px #303030;
+    background: linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
+    background: -moz-linear-gradient(45deg,  #00AFFF 0%, #147BE4 100%);
+    background: -webkit-linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00AFFF', endColorstr='#147BE4',GradientType=1 );
+}
+
+a.side-menu {
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 8px 8px 8px 32px;
+}
+
+.closebutton {
+    top: 18px;
+    right: 18px;
+    font-size: 36px;
+    margin-left: 50px;
+    position: absolute;
 }

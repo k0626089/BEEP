@@ -66,7 +66,12 @@
             <div class="navbar-header">
                 <!-- Logo -->
                 <a href="index.html">
-                <img src="assets/image/logo_white.png" alt="Mountain View" style="height: 33px;">
+                    <img src="assets/image/logo_white.png" alt="Mountain View" style="height: 33px;">
+                </a>
+                
+                <!-- Menu button -->
+                <a class="menu-button" onclick="open_menu()">
+                    <img src="assets/image/menu2.png" alt="Mountain View" style="height: 26px;">
                 </a>
             </div>
             
@@ -74,7 +79,16 @@
             <input type="text" class="form-control search-bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
         </div>
         
-        <div class="container" id="container">
+        <!-- Side menu -->
+        <div id="side-menu" class="side-menu">
+            <a class="closebutton" onclick="close_menu()">
+                <img src="assets/image/close.png" alt="Mountain View" style="height: 26px;">
+            </a>
+            <!-- Menu contents -->
+        </div>
+        
+        <!-- Main -->
+        <div class="container" id="main">
             <div id="blocklist" class="blocklist">
                 <!-- Song list -->
 				<div class="text-center">
@@ -83,9 +97,15 @@
             </div>
         </div>
         
+        <!-- More button -->
+        <div id="more"></div>
+        
+<!--
         <a id="more-button" class="more-button" onclick="more()">
             <img src="assets/image/more4.png" alt="Mountain View" style="height: 10;" id="loading">
         </a>
+-->
+        
 <!--
         <footer class="footer">
             <div class="container">

@@ -56,7 +56,7 @@ function getBlocks() {
             
             if (i >= page_item) { 
 				remove_image();
-//				more_button();
+				more_button();
 				return true;
 			} else {
 				addBlock(octave, note, title, artist, sharp);
@@ -149,17 +149,16 @@ function more_button() {
 	var outer_div = document.createElement("div"),
 		more = document.createElement("img");
 
-	outer_div.className = "text-center more";
-	outer_div.setAttribute("id", "more_button");
-
-//	more.setAttribute("id", "more_button");
-	more.setAttribute("onclick", "more()");
+	outer_div.className = "more-button";
+	outer_div.setAttribute("id", "more-button");
+	outer_div.setAttribute("onclick", "more()");
+    
 	more.setAttribute("alt", "Mountain View");
-	more.setAttribute("style", "height: 25;");
-	more.setAttribute("src", "assets/image/more.png");
+	more.setAttribute("style", "height: 10;");
+	more.setAttribute("src", "assets/image/more4.png");
 
 	outer_div.appendChild(more);
-	document.getElementById("container").appendChild(outer_div);
+	document.getElementById("more").appendChild(outer_div);
 }
 
 function more() {
@@ -180,4 +179,12 @@ function remove_image() {
 	if(document.getElementById('loading').style.display != 'none') {
 		document.getElementById('loading').style.display = 'none';
 	}
+}
+
+function open_menu() {
+    document.getElementById("side-menu").style.width = "250px";
+}
+
+function close_menu() {
+    document.getElementById("side-menu").style.width = "0";
 }
