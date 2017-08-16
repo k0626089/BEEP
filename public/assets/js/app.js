@@ -44,7 +44,6 @@ function addBlock(octave, note, title, artist, sharp) {
 
 function getBlocks() {
     "use strict";
-    eraseBlocks();
     var i = 0, ref = firebase.database().ref('songs');
 	
     ref.on('value', function (snapshot) {
@@ -56,8 +55,11 @@ function getBlocks() {
                 sharp = childSnapshot.val().sharp;
             
             if (i >= page_item) { 
-				remove_image();
-				more_button();
+                var load = document.getElementById("load");
+                while (load.firstChild) {
+                    load.removeChild(load.firstChild);
+                }
+                more_button();
 				return true;
 			} else {
 				addBlock(octave, note, title, artist, sharp);
@@ -122,7 +124,6 @@ function searchBlocks() {
                 s21 = o.concat("옥", t, ea, o, "옥타브", t, ea);
             
             if (i >= page_item) { 
-//				more_button();
 				return true;
 			} else {
                 if (s1.includes(k) || s2.includes(k)
@@ -138,7 +139,6 @@ function searchBlocks() {
                     || s21.includes(k)) {
                     
                     addBlock(octave, note, title, artist, sharp);
-//					firebase.database().ref().child('/songs/' + key + '/view_count').set(view + 1);
                     i += 1;
                 } 
             }
