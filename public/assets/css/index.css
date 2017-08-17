@@ -48,6 +48,7 @@ html {
 /* Content */
 .blocklist {
     min-height: 500px;
+    margin-bottom: 115px;
 }
 
 .load {
@@ -216,6 +217,8 @@ a.side-menu {
     padding: 13px 0px;
     text-align: center;
     background: #F7F7F7;
+    position: absolute;
+    bottom: 80px;
 /*
     border-style: solid;
     border-color: #1484E4;
@@ -235,6 +238,10 @@ a.side-menu {
     background: #FFFFFF;
     border-style: solid;
     border-color: #1484E4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     border-width: 4px 0px 4px 0px;
 }
 
