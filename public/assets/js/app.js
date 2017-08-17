@@ -1,6 +1,23 @@
 // initial values
 var page_item = 15, current_key = '';
 
+function more_button() {
+    "use strict";
+	var outer_div = document.createElement("div"),
+		more = document.createElement("img");
+
+	outer_div.className = "more-button";
+	outer_div.setAttribute("id", "more-button");
+	outer_div.setAttribute("onclick", "more()");
+    
+	more.setAttribute("alt", "Mountain View");
+	more.setAttribute("style", "height: 10;");
+	more.setAttribute("src", "assets/image/more4.png");
+
+	outer_div.appendChild(more);
+	document.getElementById("more").appendChild(outer_div);
+}
+
 // var type: str, str, str, str, int
 function addBlock(octave, note, title, artist, sharp) {
     "use strict";
@@ -60,10 +77,10 @@ function getBlocks() {
                     load.removeChild(load.firstChild);
                 }
                 more_button();
-				return true;
+                return true;
 			} else {
 				addBlock(octave, note, title, artist, sharp);
-            	i += 1;
+                i += 1;
 			}
         });
     });
@@ -80,11 +97,12 @@ function eraseBlocks() {
 function searchBlocks() {
     "use strict";
     var i = 0, ref = firebase.database().ref('songs'),
-        keyword = document.getElementById('searchbar').value;
-    var more = document.getElementById("more");
-        while (more.firstChild) {
-            more.removeChild(more.firstChild);
-        }
+        keyword = document.getElementById('searchbar').value,
+        more = document.getElementById("more");
+    
+    while (more.firstChild) {
+        more.removeChild(more.firstChild);
+    }
         
     ref.on('value', function (snapshot) {
         snapshot.forEach(function (childSnapshot) {
@@ -97,8 +115,8 @@ function searchBlocks() {
                 view = childSnapshot.val().view_count;
             
             var k_artist = artist.split("(")[0],
-                e_artist = artist.split("(")[1];
-                e_artist = artist.split(")")[0];
+            e_artist = artist.split("(")[1];
+            e_artist = artist.split(")")[0];
 
             var t = title.toUpperCase().replace(/\s|\.|,/g, ''),
                 ka = k_artist.toUpperCase().replace(/\s/g, ''),
@@ -151,20 +169,19 @@ function searchBlocks() {
     });
 }
 
-function more_button() {
+function no_result() {
+    "use strict";
 	var outer_div = document.createElement("div"),
-		more = document.createElement("img");
+		no_result = document.createElement("img");
 
-	outer_div.className = "more-button";
-	outer_div.setAttribute("id", "more-button");
-	outer_div.setAttribute("onclick", "more()");
+	outer_div.className = "no_result";
     
-	more.setAttribute("alt", "Mountain View");
-	more.setAttribute("style", "height: 10;");
-	more.setAttribute("src", "assets/image/more4.png");
+	no_result.setAttribute("alt", "Mountain View");
+	no_result.setAttribute("style", "height: 70;");
+	no_result.setAttribute("src", "assets/image/no_result.png");
 
-	outer_div.appendChild(more);
-	document.getElementById("more").appendChild(outer_div);
+	outer_div.appendChild(no_result);
+	document.getElementById("blocklist").appendChild(outer_div);
 }
 
 function more() {
@@ -179,15 +196,16 @@ function search() {
 	page_item = 15;
 	eraseBlocks();
 	searchBlocks();
-}
-
-function remove_image() {
-	if(document.getElementById('loading').style.display != 'none') {
-		document.getElementById('loading').style.display = 'none';
-	}
+    
+    /* no_result */
+    var blocklist = document.getElementById("blocklist");
+    if (!blocklist.firstChild) {
+        no_result();
+    }
 }
 
 function open_menu() {
+    "use strict";
     document.getElementById("copyright").style.fontSize = "11px";
     document.getElementById("social-buttons").style.display = "block";
     document.getElementById("menu-items").style.fontSize = "27px";
@@ -195,6 +213,7 @@ function open_menu() {
 }
 
 function close_menu() {
+    "use strict";
     document.getElementById("copyright").style.fontSize = "0";
     document.getElementById("social-buttons").style.display = "none";
     document.getElementById("menu-items").style.fontSize = "0";

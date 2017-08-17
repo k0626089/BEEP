@@ -131,6 +131,11 @@ div.oct_4 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343F49', endColorstr='#5F6468',GradientType=1 );
 }
 
+.no_result {
+    text-align: center;
+    padding-top: 90px;
+}
+
 /* Side Menu */
 .side-menu {
     top: 0;
@@ -227,7 +232,7 @@ a.side-menu {
     height: 80px;
     display: block;
     padding: 13px 13px;
-    background: #FCFCFC;
+    background: #FFFFFF;
     border-style: solid;
     border-color: #1484E4;
     border-width: 4px 0px 4px 0px;
