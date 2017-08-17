@@ -64,6 +64,6 @@
     이 결과는 "3옥타브 도♯"을 나타냅니다.
 
 ## 스크린샷
-<img src="readme/IMG_0217.png" height="400">
-<img src="readme/IMG_0218.png" height="400">
-<img src="readme/IMG_0219.png" height="400">
+<img src="readme/IMG_0217.PNG" height="400">
+<img src="readme/IMG_0218.PNG" height="400">
+<img src="readme/IMG_0219.PNG" height="400">
