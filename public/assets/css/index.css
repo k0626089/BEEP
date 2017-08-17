@@ -46,6 +46,10 @@ html {
 }
 
 /* Content */
+.blocklist {
+    min-height: 500px;
+}
+
 .load {
     padding-top: 125px;
     text-align: center;
@@ -127,22 +131,6 @@ div.oct_4 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343F49', endColorstr='#5F6468',GradientType=1 );
 }
 
-/* more */
-.more-button {
-    width: 100%;
-    display: block;
-    padding: 13px 0px;
-    text-align: center;
-    background: #FCFCFC;
-    border-style: solid;
-    border-color: #1484E4;
-    border-width: 4px 0px 4px 0px;
-}
-
-.more-button:active {
-    background: #B7E4FF;
-}
-
 /* Side Menu */
 .side-menu {
     top: 0;
@@ -214,4 +202,53 @@ a.side-menu {
     font-size: 11px;
     transition: 0.3s;
     font-weight: 200;
+}
+
+/* more */
+.more-button {
+    width: 100%;
+    display: block;
+    padding: 13px 0px;
+    text-align: center;
+    background: #F7F7F7;
+/*
+    border-style: solid;
+    border-color: #1484E4;
+    border-width: 4px 0px 4px 0px;
+*/
+}
+
+.more-button:active {
+    background: #B7E4FF;
+}
+
+/* Footer */
+.footer {
+    height: 80px;
+    display: block;
+    padding: 13px 13px;
+    background: #FCFCFC;
+    border-style: solid;
+    border-color: #1484E4;
+    border-width: 4px 0px 4px 0px;
+}
+
+.footer-title {
+    margin: 0;
+    padding: 2px 0 0 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-content {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.inje-logo {
+    right: 13;
+    bottom: 17.5;
+    position: absolute;
 }
