@@ -213,17 +213,12 @@ a.side-menu {
 /* more */
 .more-button {
     width: 100%;
+    bottom: 80px;
     display: block;
     padding: 13px 0px;
     text-align: center;
     background: #F7F7F7;
     position: absolute;
-    bottom: 80px;
-/*
-    border-style: solid;
-    border-color: #1484E4;
-    border-width: 4px 0px 4px 0px;
-*/
 }
 
 .more-button:active {
@@ -232,16 +227,16 @@ a.side-menu {
 
 /* Footer */
 .footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
     height: 80px;
     display: block;
+    position: absolute;
     padding: 13px 13px;
     background: #FFFFFF;
     border-style: solid;
     border-color: #1484E4;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     border-width: 4px 0px 4px 0px;
 }
 
@@ -261,6 +256,6 @@ a.side-menu {
 
 .inje-logo {
     right: 13;
-    bottom: 17.5;
+    bottom: 13;
     position: absolute;
 }
