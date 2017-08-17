@@ -1,4 +1,4 @@
-# <img src="readme/logo.png" width="120">
+# <img src="readme/logo.png" width="150">
 
 [![Demo Site](https://img.shields.io/badge/demo-site-35A4E9.svg)](https://beep-a7112.firebaseapp.com)
 [![Google Firebase](https://img.shields.io/badge/google-firebase-orange.svg)](https://firebase.google.com)
