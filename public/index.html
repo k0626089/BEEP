@@ -117,21 +117,12 @@
         
         <!-- kakaotalk script -->
         <script>
-            var firstImg=$(".imageblock:first-of-type img");
-            var contents="";
-            if(firstImg.attr("src")){
-                var firstImgSrc=firstImg.attr("src");
-                var firstImgRatio = parseInt(firstImg.css("height"))/parseInt(firstImg.css("width"));
-                if (firstImgRatio <=0.27) var firstImgRatio=0.27;
-            }else{var firstImgSrc=location.origin+"/favicon.ico";
-                var firstImgRatio=1} Kakao.init('0ca4cd0fba7964199cdb5d44040d4787');
-            // 사용할 앱의 JavaScript 키를 설정해 주세요.
+            Kakao.init('0ca4cd0fba7964199cdb5d44040d4787');
             function sendLink() {
                 Kakao.Link.sendTalkLink({
-                    label: '삑 | 최고음 검색기', // 공유할 메세지의 제목을 설정
-                    image: { src: 'https://beep-a7112.firebaseapp.com/assets/image/banner.png', width: '300', height: '187.5' } // 이건 썸네일을 설정 하는 겁니다.
+                    label: '삑 | 최고음 검색기',
+                    image: { src: 'https://beep-a7112.firebaseapp.com/assets/image/banner.png', width: '300', height: '187.5' }
                     , webButton: { text: '사이트 보러가기', url : 'https://삑.com' 
-                    // 각각의 포스팅 본문의 링크를 거는 코드입니다.
                     } }); }
         </script>
             
