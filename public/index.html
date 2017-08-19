@@ -95,14 +95,24 @@
         <img src="assets/image/banner.png" alt="Mountain View" style="height: 33px; display: none">
         
         <!-- facebook script -->
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
+		<script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '106411910087184',
+              xfbml      : true,
+              version    : 'v2.10'
+            });
+            FB.AppEvents.logPageView();
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
         
         <!-- Nav bar -->
         <div class="search-box">
@@ -131,30 +141,14 @@
             
             <!-- Menu items -->
             <div class="menu-items" id="menu-items">
-                <a href="" class="menu-item">
+                <a class="menu-item">
                     사용법
                 </a>
-                <a href="" class="menu-item">
+                <a class="menu-item">
                     로그인
                 </a>
                 <a href="https://github.com/k0626089/BEEP" class="menu-item">
-                    햣
-                </a>
-            </div>
-            
-            <div class="menu-footer">
-                <div class="social-buttons" id="social-buttons">
-                    <!-- Paypal button -->
-                    <a href="https://www.paypal.me/InjeKim" class="paypal">
-                        <img src="assets/image/paypal2.png" alt="Mountain View" style="height: 32px;">
-                    </a>
-                    
-                    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2F%EC%82%91.com&width=105&layout=button_count&action=like&size=small&show_faces=true&share=true&height=46&appId" width="150" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-                </div>
-                
-                <!-- Copyright -->
-                <a class="copyright" id="copyright">
-                    © Copyright 2017, INJE™ All rights reserved
+                    GitHub
                 </a>
             </div>
         </div>
@@ -177,15 +171,22 @@
         -->
         
         <!-- More button -->
-            <div id="more"></div>
+        <div id="more"></div>
         
         <!-- Footer -->
         <div id="footer" class="footer">
-            <p class="footer-title">한양대학교</p>
-            <p class="footer-content">16학번 김인제</p>
-            <a href="https://github.com/k0626089" class="inje-logo">
-                <img src="assets/image/inje.png" alt="Mountain View" style="height: 45px;">
+            <a class="social">
+                <img src="assets/image/kakao.png" alt="Mountain View" style="height: 25px;">
             </a>
+            <a class="social">
+                <img src="assets/image/twitter.png" alt="Mountain View" style="height: 25px;">
+            </a>
+            <a class="social">
+                <img src="assets/image/facebook.png" alt="Mountain View" style="height: 25px;">
+            </a>
+            <p class="footer-content">
+                © Copyright 2017, INJE™ All rights reserved.
+            </p>
         </div>
     </body>
 </html>

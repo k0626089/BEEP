@@ -176,7 +176,7 @@ a.side-menu {
 .menu-items {
     font-size: 27px;
     transition: 0.3s;
-    padding: 3px 0px;
+    padding: 5px 0px;
     font-weight: 200;
     margin-left: 20px;
     text-shadow: 0px 0px 4px #202020;
@@ -187,42 +187,28 @@ a.side-menu {
     display: block;
 }
 
-.menu-footer {
-    bottom: 0;
-    width: inherit;
-    text-align: center;
-    position: absolute;
-    margin-bottom: 10px;
-}
-
-.social-buttons {
-    transition: 0.3s;
-}
-
-.paypal {
-    padding-left: 39px;
-}
-
-.copyright {
-    color: #404040;
-    font-size: 11px;
-    transition: 0.3s;
-    font-weight: 200;
+.menu-item:hover {
+    color: #00B9FF;
 }
 
 /* more */
 .more-button {
     width: 100%;
+    height: 26px;
     bottom: 80px;
     display: block;
-    padding: 13px 0px;
+    padding: 9px 0px;
     text-align: center;
-    background: #F7F7F7;
     position: absolute;
+    background: #00AFFF;
+    background: linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
+    background: -moz-linear-gradient(45deg,  #00AFFF 0%, #147BE4 100%);
+    background: -webkit-linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00AFFF', endColorstr='#147BE4',GradientType=1 );
 }
 
 .more-button:active {
-    background: #B7E4FF;
+    background: #066ACE;
 }
 
 /* Footer */
@@ -232,12 +218,15 @@ a.side-menu {
     bottom: 0;
     height: 80px;
     display: block;
+    color: #B7B6B6;
     position: absolute;
-    padding: 13px 13px;
-    background: #FFFFFF;
-    border-style: solid;
-    border-color: #1484E4;
-    border-width: 4px 0px 4px 0px;
+    padding: 15px 0px;
+    text-align: center;
+    background: #2A2A2A;
+}
+
+.social {
+    padding: 0px 4px;
 }
 
 .footer-title {
@@ -249,13 +238,8 @@ a.side-menu {
 
 .footer-content {
     margin: 0;
-    padding: 0;
+    padding-top: 10px;
+    font-size: 10px;
     font-weight: 200;
-    font-size: 16.5px;
-}
-
-.inje-logo {
-    right: 13;
-    bottom: 13;
-    position: absolute;
+    
 }

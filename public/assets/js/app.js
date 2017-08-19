@@ -11,8 +11,8 @@ function more_button() {
 	outer_div.setAttribute("onclick", "more()");
     
 	more.setAttribute("alt", "Mountain View");
-	more.setAttribute("style", "height: 10;");
-	more.setAttribute("src", "assets/image/more4.png");
+	more.setAttribute("style", "height: 8px;");
+	more.setAttribute("src", "assets/image/more5.png");
 
 	outer_div.appendChild(more);
 	document.getElementById("more").appendChild(outer_div);
@@ -206,16 +206,12 @@ function search() {
 
 function open_menu() {
     "use strict";
-    document.getElementById("copyright").style.fontSize = "11px";
-    document.getElementById("social-buttons").style.display = "block";
     document.getElementById("menu-items").style.fontSize = "27px";
     document.getElementById("side-menu").style.width = "250px";
 }
 
 function close_menu() {
     "use strict";
-    document.getElementById("copyright").style.fontSize = "0";
-    document.getElementById("social-buttons").style.display = "none";
     document.getElementById("menu-items").style.fontSize = "0";
     document.getElementById("side-menu").style.width = "0";
 }
