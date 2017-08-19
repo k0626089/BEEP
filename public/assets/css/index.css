@@ -148,13 +148,13 @@ div.oct_4 {
     transition: 0.5s;
     padding-top: 60px;
     overflow-x: hidden;
-    background: #00AFFF;
+    background: #252525;
     box-shadow: 0px 0px 7px #303030;
     -webkit-box-shadow: 0px 0px 7px #303030;
-    background: linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
-    background: -moz-linear-gradient(45deg,  #00AFFF 0%, #147BE4 100%);
-    background: -webkit-linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00AFFF', endColorstr='#147BE4',GradientType=1 );
+    background: linear-gradient(45deg,  #252525 0%,#313131 100%);
+    background: -moz-linear-gradient(45deg,  #252525 0%, #313131 100%);
+    background: -webkit-linear-gradient(45deg,  #252525 0%,#313131 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#313131',GradientType=1 );
 }
 
 a.side-menu {
