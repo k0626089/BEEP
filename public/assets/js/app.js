@@ -207,11 +207,13 @@ function search() {
 function open_menu() {
     "use strict";
     document.getElementById("menu-items").style.fontSize = "27px";
+    document.getElementById("indicators").style.width = "79px";
     document.getElementById("side-menu").style.width = "250px";
 }
 
 function close_menu() {
     "use strict";
     document.getElementById("menu-items").style.fontSize = "0";
+    document.getElementById("indicators").style.width = "0";
     document.getElementById("side-menu").style.width = "0";
 }
