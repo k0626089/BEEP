@@ -22,6 +22,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="assets/js/app.js"></script>
+        <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
         
         <!-- css -->
         <link href="assets/css/index.css" rel="stylesheet">
@@ -51,39 +52,39 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         
-        <!-- iPhone 5.5 inch Plus portrait startup image -->
+        <!-- iPhone 5.5 inch portrait splash screen -->
         <link href="assets/image/1242x2148.png"
              media="(device-width: 414px) and (device-height: 736px)
                     and (-webkit-device-pixel-ratio: 3)
                     and (orientation: portrait)"
              rel="apple-touch-startup-image">
 
-       <!-- iPhone 5.5 inch Plus landscape startup image -->
+       <!-- iPhone 5.5 inch landscape splash screen -->
        <link href="assets/image/1182x2208.png"
              media="(device-width: 414px) and (device-height: 736px)
                     and (-webkit-device-pixel-ratio: 3)
                     and (orientation: landscape)"
              rel="apple-touch-startup-image">
 
-       <!-- iPhone 4.7 inch startup image -->
+       <!-- iPhone 4.7 inch splash screen -->
        <link href="assets/image/750x1294.png"
              media="(device-width: 375px) and (device-height: 667px)
                     and (-webkit-device-pixel-ratio: 2)"
              rel="apple-touch-startup-image">
 
-       <!-- iPhone 4 inch startup image -->
+       <!-- iPhone 4 inch splash screen -->
        <link href="assets/image/640x1096.png"
              media="(device-width: 320px) and (device-height: 568px)
                     and (-webkit-device-pixel-ratio: 2)"
              rel="apple-touch-startup-image">
 
-       <!-- iPhone 3.5 inch retina startup image -->
+       <!-- iPhone 3.5 inch retina splash screen -->
        <link href="assets/image/640x920.png"
              media="(device-width: 320px) and (device-height: 480px)
                     and (-webkit-device-pixel-ratio: 2)"
              rel="apple-touch-startup-image">
 
-       <!-- iPhone 3.5 inch non-retina startup image -->
+       <!-- iPhone 3.5 inch non-retina splash screen -->
        <link href="assets/image/320x460.png"
              media="(device-width: 320px) and (device-height: 480px)
                     and (-webkit-device-pixel-ratio: 1)"
@@ -114,6 +115,26 @@
            }(document, 'script', 'facebook-jssdk'));
         </script>
         
+        <!-- kakaotalk script -->
+        <script>
+            var firstImg=$(".imageblock:first-of-type img");
+            var contents="";
+            if(firstImg.attr("src")){
+                var firstImgSrc=firstImg.attr("src");
+                var firstImgRatio = parseInt(firstImg.css("height"))/parseInt(firstImg.css("width"));
+                if (firstImgRatio <=0.27) var firstImgRatio=0.27;
+            }else{var firstImgSrc=location.origin+"/favicon.ico";
+                var firstImgRatio=1} Kakao.init('0ca4cd0fba7964199cdb5d44040d4787');
+            // 사용할 앱의 JavaScript 키를 설정해 주세요.
+            function sendLink() {
+                Kakao.Link.sendTalkLink({
+                    label: '삑 | 최고음 검색기', // 공유할 메세지의 제목을 설정
+                    image: { src: 'https://beep-a7112.firebaseapp.com/assets/image/banner.png', width: '300', height: '187.5' } // 이건 썸네일을 설정 하는 겁니다.
+                    , webButton: { text: '사이트 보러가기', url : 'https://삑.com' 
+                    // 각각의 포스팅 본문의 링크를 거는 코드입니다.
+                    } }); }
+        </script>
+            
         <!-- Nav bar -->
         <div class="search-box">
             <div class="navbar-header">
@@ -175,7 +196,7 @@
         
         <!-- Footer -->
         <div id="footer" class="footer">
-            <a class="social">
+            <a class="social" id="kakao-link-btn" href="javascript:sendLink()">
                 <img src="assets/image/kakao.png" alt="Mountain View" style="height: 25px;">
             </a>
             <a class="social" href="https://twitter.com/intent/tweet?text=https://삑.com">
