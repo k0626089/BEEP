@@ -222,9 +222,9 @@ function open_search() {
     "use strict";
     if (document.getElementById("nav-footer").style.display == "none") {
         document.getElementById("nav-footer").style.display = "block";
-        document.getElementById("blocklist").style.marginTop = "105px";
+        document.getElementById("advert").style.marginTop = "91px";
     } else {
         document.getElementById("nav-footer").style.display = "none";
-        document.getElementById("blocklist").style.marginTop = "60px";
+        document.getElementById("advert").style.marginTop = "47px";
     }
 }
