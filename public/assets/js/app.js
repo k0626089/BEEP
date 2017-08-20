@@ -220,9 +220,11 @@ function close_menu() {
 
 function open_search() {
     "use strict";
-    if (document.getElementById("nav-footer").style.display != "none") {
-        document.getElementById("nav-footer").style.display = "none";
-    } else {
+    if (document.getElementById("nav-footer").style.display == "none") {
         document.getElementById("nav-footer").style.display = "block";
+        document.getElementById("blocklist").style.marginTop = "105px";
+    } else {
+        document.getElementById("nav-footer").style.display = "none";
+        document.getElementById("blocklist").style.marginTop = "60px";
     }
 }

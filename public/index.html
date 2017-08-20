@@ -139,28 +139,26 @@
         </script>
             
         <!-- Nav bar -->
-        <div class="navbar">
-            <div class="navbar-header">
-                <!-- Menu button -->
-                <a class="menu-button" onclick="open_menu()">
-                    <img src="assets/svg/menu-icon.svg" alt="Mountain View" style="height: 14px;">
-                </a>
-                
-                <!-- Logo -->
-                <a href="index.html">
-                    <img src="assets/svg/logo.svg" alt="Mountain View" style="height: 20px;">
-                </a>
-                
-                <!-- Search button -->
-                <a class="search-button" onclick="open_search()">
-                    <img src="assets/svg/search-icon.svg" alt="Mountain View" style="height: 18px;">
-                </a>
-            </div>
-            <div class="nav-footer" id="nav-footer">
-                <input type="text" class="form-control search-bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
-            </div>
+        <div class="navbar-header">
+            <!-- Menu button -->
+            <a class="menu-button" onclick="open_menu()">
+                <img src="assets/svg/menu-icon.svg" alt="Mountain View" style="height: 14px;">
+            </a>
+
+            <!-- Logo -->
+            <a href="index.html">
+                <img src="assets/svg/logo.svg" alt="Mountain View" style="height: 20px;">
+            </a>
+
+            <!-- Search button -->
+            <a class="search-button" onclick="open_search()">
+                <img src="assets/svg/search-icon.svg" alt="Mountain View" style="height: 18px;">
+            </a>
         </div>
-        
+        <div class="nav-footer" id="nav-footer" style="display: none">
+            <input type="text" class="form-control search-bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
+        </div>
+                
         <!-- Side menu -->
         <div id="side-menu" class="side-menu">
             <!-- Close button -->

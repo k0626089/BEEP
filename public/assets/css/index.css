@@ -39,7 +39,6 @@ body {
     z-index: 1;
     height: 47px;
     padding: 4px 7px;
-    display: none;
     position: fixed;
     text-align: center;
     background: #FCFCFC;
@@ -79,6 +78,7 @@ body {
 /* Content */
 .blocklist {
     min-height: 500px;
+    margin-top: 60px;
     margin-bottom: 105px;
 }
 
