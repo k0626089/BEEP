@@ -12,7 +12,7 @@ function more_button() {
     
 	more.setAttribute("alt", "Mountain View");
 	more.setAttribute("style", "height: 8px;");
-	more.setAttribute("src", "assets/image/more5.png");
+	more.setAttribute("src", "assets/svg/more.svg");
 
 	outer_div.appendChild(more);
 	document.getElementById("more").appendChild(outer_div);

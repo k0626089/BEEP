@@ -80,7 +80,7 @@ body {
 /* Ad */
 .advert {
     height: 70px;
-    padding: 25px;
+    padding: 20px;
     color: #E2E2E2;
     font-size: 20px;
     margin-top: 47px;
@@ -88,12 +88,26 @@ body {
 }
 
 /* Content */
+.list-icon {
+    padding: 2px;
+}
+
+.list-title {
+    height: 43px;
+    color: #404040;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 8px 10px;
+    background: #FFFFFF;
+    border-top: 2px solid #F3F3F3;
+    border-bottom: 1px solid #F3F3F3;
+}
+
 .blocklist {
     min-height: 500px;
     background: #FFFFFF;
     margin-bottom: 120px;
     padding: 15px 0px 0px 15px;
-    border-top: 2px solid #F3F3F3;
     border-bottom: 2px solid #F3F3F3;
 }
 
