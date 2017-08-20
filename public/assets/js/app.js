@@ -206,16 +206,16 @@ function search() {
 
 function open_menu() {
     "use strict";
-    document.getElementById("menu-items").style.fontSize = "27px";
-    document.getElementById("indicators").style.width = "79px";
-    document.getElementById("side-menu").style.width = "250px";
+    document.getElementById("side-menu").style.display = "block";
+    document.getElementById("menu-button").style.display = "none";
+    document.getElementById("exit-button").style.display = "block";
 }
 
 function close_menu() {
     "use strict";
-    document.getElementById("menu-items").style.fontSize = "0";
-    document.getElementById("indicators").style.width = "0";
-    document.getElementById("side-menu").style.width = "0";
+    document.getElementById("side-menu").style.display = "none";
+    document.getElementById("exit-button").style.display = "none";
+    document.getElementById("menu-button").style.display = "block";
 }
 
 function open_search() {

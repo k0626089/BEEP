@@ -141,8 +141,13 @@
         <!-- Nav bar -->
         <div class="navbar-header">
             <!-- Menu button -->
-            <a class="menu-button" onclick="open_menu()">
+            <a class="menu-button" onclick="open_menu()" id="menu-button">
                 <img src="assets/svg/menu-icon.svg" alt="Mountain View" style="height: 14px;">
+            </a>
+            
+            <!-- Exit button -->
+            <a class="exit-button" onclick="close_menu()" id="exit-button" style="display: none">
+                <img src="assets/svg/exit-icon.svg" alt="Mountain View" style="height: 14px;">
             </a>
 
             <!-- Logo -->
@@ -151,7 +156,7 @@
             </a>
 
             <!-- Search button -->
-            <a class="search-button" onclick="open_search()">
+            <a class="search-button" onclick="open_search()" id="search-button">
                 <img src="assets/svg/search-icon.svg" alt="Mountain View" style="height: 18px;">
             </a>
         </div>
@@ -160,7 +165,7 @@
         </div>
                 
         <!-- Side menu -->
-        <div id="side-menu" class="side-menu">
+        <div id="side-menu" class="side-menu" style="display: none">
             <!-- Close button -->
             <a class="closebutton" onclick="close_menu()">
                 <img src="assets/image/close.png" alt="Mountain View" style="height: 26px;">
