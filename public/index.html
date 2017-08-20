@@ -93,7 +93,7 @@
     
     <body onload="getBlocks()">
         <!-- banner photo -->
-        <img src="assets/image/banner.png" alt="Mountain View" style="height: 33px; display: none">
+        <img src="assets/image/banner.png" alt="Mountain View" style="display: none">
         
         <!-- facebook script -->
 		<script>
@@ -118,30 +118,47 @@
         <!-- kakaotalk script -->
         <script>
             Kakao.init('0ca4cd0fba7964199cdb5d44040d4787');
+            
             function sendLink() {
                 Kakao.Link.sendTalkLink({
                     label: '삑 | 최고음 검색기',
                     image: { src: 'https://beep-a7112.firebaseapp.com/assets/image/banner.png', width: '300', height: '187.5' }
                     , webButton: { text: '사이트 보러가기', url : 'https://삑.com' 
                     } }); }
+            
+            function loginWithKakao() {
+                Kakao.Auth.login({
+                    success: function(authObj) {
+                        alert(JSON.stringify(authObj));
+                    },
+                    fail: function(err) {
+                        alert(JSON.stringify(err));
+                    }
+                });
+            };
         </script>
             
         <!-- Nav bar -->
-        <div class="search-box">
+        <div class="navbar">
             <div class="navbar-header">
-                <!-- Logo -->
-                <a href="index.html">
-                    <img src="assets/image/logo_white.png" alt="Mountain View" style="height: 33px;">
-                </a>
-                
                 <!-- Menu button -->
                 <a class="menu-button" onclick="open_menu()">
-                    <img src="assets/image/menu2.png" alt="Mountain View" style="height: 26px;">
+                    <img src="assets/svg/menu-icon.svg" alt="Mountain View" style="height: 14px;">
+                </a>
+                
+                <!-- Logo -->
+                <a href="index.html">
+                    <img src="assets/svg/logo.svg" alt="Mountain View" style="height: 20px;">
+                </a>
+                
+                <!-- Search button -->
+                <a class="search-button" onclick="open_search()">
+                    <img src="assets/svg/search-icon.svg" alt="Mountain View" style="height: 18px;">
                 </a>
             </div>
-            
-            <!-- Search bar -->
-            <input type="text" class="form-control search-bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
+            <div class="nav-footer" id="nav-footer">
+                <input type="text" class="form-control search-bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
+            </div>
         </div>
         
         <!-- Side menu -->
@@ -156,10 +173,10 @@
                 <a class="menu-item">
                     사용법
                 </a>
-                <a class="menu-item">
+                <a class="menu-item" href="javascript:loginWithKakao()">
                     로그인
                 </a>
-                <a href="https://github.com/k0626089/BEEP" class="menu-item">
+                <a class="menu-item" href="https://github.com/k0626089/BEEP">
                     GitHub
                 </a>
                 <p>

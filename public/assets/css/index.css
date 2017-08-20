@@ -3,46 +3,77 @@ html {
     position: relative;
 }
 
-/* Search box */
-.search-box {
-    border: 0;
-    height: 115px;
-    padding: 12px;
-    margin-bottom: 16px;
-    background: #00AFFF;
-    box-shadow: 0px 0px 2px #505050;
-    -webkit-box-shadow: 0px 0px 2px #505050;
-    background: linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
-    background: -moz-linear-gradient(45deg,  #00AFFF 0%, #147BE4 100%);
-    background: -webkit-linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00AFFF', endColorstr='#147BE4',GradientType=1 );
+body {
+    background-color: #F9F9F9 !important;
 }
 
+/* Navbar */
 .navbar-header {
-    margin-bottom: 13px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 47px;
+    padding: 12px;
+    display: block;
+    position: fixed;
+    text-align: center;
+    background: #FCFCFC;
+    border-bottom: 3px solid #E5E5E5;
 }
 
 .menu-button {
-    top: 9px;
-    right: 12px;
-    padding-top: 6px;
-    position: absolute;
-    padding-right: 4px;
+    float: left;
+    padding: 3px 4px;
+}
+
+.search-button {
+    float: right;
+    padding: 1px 2px;
+}
+
+.nav-footer {
+    top: 44;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 47px;
+    padding: 4px 7px;
+    display: none;
+    position: fixed;
+    text-align: center;
+    background: #FCFCFC;
+    border-bottom: 3px solid #E5E5E5;
 }
 
 .form-control.search-bar {
-    height: 42px;
     border: none;
-    font-size: 17px;
-    font-weight: 200;
-    border-radius: 10px;
-    -webkit-appearance: none;
-    box-shadow: 0px 1px 5px #166CBB;
+    height: 33px;
+    z-index: 1;
+    color: #505050;
+    padding: 9px;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #F2F2F2;
+    box-shadow: 0 0 0 inset;
+}
+
+.form-control.search-bar::placeholder {
+    color: #BABABA;
 }
 
 .form-control.search-bar:focus {
     box-shadow: 0px 1px 5px #31C1FF;
     -webkit-box-shadow: 0px 1px 5px #31C1FF;
+}
+
+/* Ad */
+.ad {
+    height: 50px;
+    background: red;
+    position: fixed;
+    top: 0;
 }
 
 /* Content */
@@ -142,7 +173,7 @@ div.oct_4 {
     top: 0;
     right: 0;
     width: 0;
-    z-index: 1;
+    z-index: 2;
     height: 100%;
     position: fixed;
     transition: 0.5s;

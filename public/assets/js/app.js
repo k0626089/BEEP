@@ -217,3 +217,12 @@ function close_menu() {
     document.getElementById("indicators").style.width = "0";
     document.getElementById("side-menu").style.width = "0";
 }
+
+function open_search() {
+    "use strict";
+    if (document.getElementById("nav-footer").style.display != "none") {
+        document.getElementById("nav-footer").style.display = "none";
+    } else {
+        document.getElementById("nav-footer").style.display = "block";
+    }
+}
