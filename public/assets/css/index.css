@@ -207,7 +207,7 @@ div.oct_4 {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 2;
     height: 100%;
     display: block;
     position: fixed;
@@ -259,16 +259,18 @@ div.oct_4 {
 }
 
 .menu-item {
-    height: 40px;
+    height: 41px;
+    color: #303030;
     display: block;
-    color: #606060;
+    font-size: 16px;
+    font-weight: 300;
     line-height: 40px;
     text-align: center;
     border-bottom: 1px solid #F3F3F3;
 }
 
 .menu-item:hover {
-    color: white;
+    color: #147BE4;
 }
 
 .indicators {
