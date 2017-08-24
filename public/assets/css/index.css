@@ -267,6 +267,7 @@ div.oct_4 {
     line-height: 40px;
     text-align: center;
     border-bottom: 1px solid #F3F3F3;
+    -webkit-tap-highlight-color: #F0F0F0;
 }
 
 .menu-item:hover {
