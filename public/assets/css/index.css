@@ -227,6 +227,20 @@ a.side-menu {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00AFFF', endColorstr='#147BE4',GradientType=1 );
 }
 
+.user-image {
+    top: 13px;
+    left: 13px;
+    position: fixed;
+}
+
+.user-name {
+    color: #F9F9F9;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 75px;
+    margin-left: 75px;
+}
+
 .exit-button {
     top: 15px;
     right: 15px;
