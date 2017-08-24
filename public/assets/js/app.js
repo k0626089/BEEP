@@ -207,15 +207,11 @@ function search() {
 function open_menu() {
     "use strict";
     document.getElementById("side-menu").style.display = "block";
-    document.getElementById("menu-button").style.display = "none";
-    document.getElementById("exit-button").style.display = "block";
 }
 
 function close_menu() {
     "use strict";
     document.getElementById("side-menu").style.display = "none";
-    document.getElementById("exit-button").style.display = "none";
-    document.getElementById("menu-button").style.display = "block";
 }
 
 function open_search() {

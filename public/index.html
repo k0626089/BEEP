@@ -144,11 +144,6 @@
             <a class="menu-button" onclick="open_menu()" id="menu-button">
                 <img src="assets/svg/menu-icon.svg" alt="Mountain View" style="height: 14px;">
             </a>
-            
-            <!-- Exit button -->
-            <a class="exit-button" onclick="close_menu()" id="exit-button" style="display: none">
-                <img src="assets/svg/exit-icon.svg" alt="Mountain View" style="height: 14px;">
-            </a>
 
             <!-- Logo -->
             <a href="index.html">
@@ -166,12 +161,16 @@
                 
         <!-- Side menu -->
         <div id="side-menu" class="side-menu" style="display: none">
-            <!-- Close button -->
-            <a class="closebutton" onclick="close_menu()">
-                <img src="assets/image/close.png" alt="Mountain View" style="height: 26px;">
-            </a>
+            <!-- Header -->
+            <div class="menu-header">
+                <!-- Close button -->
+                <a class="exit-button" onclick="close_menu()">
+                    <img src="assets/svg/exit-icon.svg" alt="Mountain View" style="height: 16px;">
+                </a>
+            </div>
             
             <!-- Menu items -->
+<!--
             <div class="menu-items" id="menu-items">
                 <a class="menu-item">
                     사용법
@@ -186,6 +185,7 @@
                     <img src="assets/image/indicators.png" alt="Mountain View"  id="indicators" class="indicators">
                 </p>
             </div>
+-->
         </div>
         
         <!-- Main -->
