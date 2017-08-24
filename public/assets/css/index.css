@@ -25,13 +25,27 @@ body {
 .menu-button {
     top: 15px;
     left: 15px;
+    height: 14px;
     position: absolute;
+}
+
+.menu-button:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
+}
+
+.logo {
+    height: 20px;
 }
 
 .search-button {
     top: 13px;
     right: 13px;
+    height: 18px;
     position: absolute;
+}
+
+.search-button:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
 }
 
 .nav-footer {
@@ -247,7 +261,12 @@ div.oct_4 {
 .exit-button {
     top: 15px;
     right: 15px;
+    height: 16px;
     position: fixed;
+}
+
+.exit-button:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
 }
 
 .menu-items {
@@ -267,11 +286,14 @@ div.oct_4 {
     line-height: 40px;
     text-align: center;
     border-bottom: 1px solid #F3F3F3;
-    -webkit-tap-highlight-color: #F0F0F0;
 }
 
 .menu-item:hover {
     color: #147BE4;
+}
+
+.menu-item:active {
+  -webkit-transform: scale3d(0.9, 0.9, 1);
 }
 
 .indicators {
