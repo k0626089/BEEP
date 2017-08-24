@@ -88,23 +88,32 @@ body {
     padding: 2px;
 }
 
-.list-title {
-    height: 43px;
-    color: #404040;
-    font-size: 17px;
-    font-weight: 500;
-    padding: 8px 10px;
-    background: #FFFFFF;
-    border-top: 2px solid #F3F3F3;
-    border-bottom: 1px solid #F3F3F3;
-}
-
-.blocklist {
+.container-basic {
     min-height: 500px;
     background: #FFFFFF;
     margin-bottom: 120px;
-    padding: 15px 0px 0px 15px;
+    border-top: 2px solid #F3F3F3;
     border-bottom: 2px solid #F3F3F3;
+}
+
+.list-title {
+    height: 41px;
+    color: #404040;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0px 10px;
+    line-height: 41px;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.title-icon {
+    height: 16px;
+    margin-top: 12px;
+    vertical-align: top;
+}
+
+.blocklist {
+    padding: 15px 15px 0px 15px;
 }
 
 .load {
@@ -189,8 +198,8 @@ div.oct_4 {
 }
 
 .no_result {
-    text-align: center;
     padding-top: 80px;
+    text-align: center;
 }
 
 /* Side Menu */
@@ -207,16 +216,10 @@ div.oct_4 {
     background: #F9F9F9;
 }
 
-a.side-menu {
-    display: block;
-    text-decoration: none;
-    padding: 8px 8px 8px 32px;
-}
-
 .menu-header {
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
     height: 75px;
     display: block;
     position: fixed;
@@ -235,7 +238,7 @@ a.side-menu {
 
 .user-name {
     color: #F9F9F9;
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 200;
     line-height: 75px;
     margin-left: 75px;
@@ -248,19 +251,24 @@ a.side-menu {
 }
 
 .menu-items {
-    font-size: 27px; /* 27px */
-    padding: 5px 0px;
-    font-weight: 200;
-    margin-left: 20px;
+    left: 0;
+    right: 0;
+    top: 90px;
+    display: block;
+    position: fixed;
 }
 
 .menu-item {
-    color: #404040;;
+    height: 40px;
     display: block;
+    color: #606060;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #F3F3F3;
 }
 
 .menu-item:hover {
-    color: #00B9FF;
+    color: white;
 }
 
 .indicators {
@@ -275,8 +283,8 @@ a.side-menu {
     bottom: 80px;
     display: block;
     padding: 9px 0px;
-    text-align: center;
     position: absolute;
+    text-align: center;
     background: #00AFFF;
     background: linear-gradient(45deg,  #00AFFF 0%,#147BE4 100%);
     background: -moz-linear-gradient(45deg,  #00AFFF 0%, #147BE4 100%);
