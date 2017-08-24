@@ -26,6 +26,7 @@
         
         <!-- css -->
         <link href="assets/css/index.css" rel="stylesheet">
+        <link href="assets/css/icons.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         
         <!-- favicon -->
@@ -46,6 +47,189 @@
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
+    </head>
+    
+    <body onload="getBlocks()">
+        <!-- banner photo -->
+        <img src="assets/image/banner.png" alt="Mountain View" style="display: none">
+        
+        <!-- facebook script -->
+		<script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId      : '106411910087184',
+              xfbml      : true,
+              version    : 'v2.10'
+            });
+            FB.AppEvents.logPageView();
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/en_US/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
+        
+        <!-- kakaotalk script -->
+        <script>
+            Kakao.init('0ca4cd0fba7964199cdb5d44040d4787');
+            
+            function sendLink() {
+                Kakao.Link.sendTalkLink({
+                    label: '삑 | 최고음 검색기',
+                    image: { src: 'https://beep-a7112.firebaseapp.com/assets/image/banner.png', width: '300', height: '187.5' }
+                    , webButton: { text: '사이트 보러가기', url : 'https://삑.com' 
+                    } }); }
+            
+            function loginWithKakao() {
+                Kakao.Auth.login({
+                    success: function(authObj) {
+                        //alert(JSON.stringify(authObj));
+                    },
+                    fail: function(err) {
+                        //alert(JSON.stringify(err));
+                    }
+                });
+            };
+        </script>
+            
+        <!-- Nav bar -->
+        <div class="navbar-header">
+            <!-- Menu button -->
+            <a onclick="open_menu()" id="menu-button">
+                <!--
+                <img src="assets/svg/menu-icon.svg" alt="Mountain View" class="menu-button">
+                -->
+                <span class="icon-menu-icon menu-button"></span>
+            </a>
+
+            <!-- Logo -->
+            <a href="index.html">
+                <img src="assets/svg/logo.svg" alt="Mountain View" class="logo">
+            </a>
+
+            <!-- Search button -->
+            <a onclick="open_search()" id="search-button">
+                <!--
+                <img src="assets/svg/search-icon.svg" alt="Mountain View" class="search-button">
+                -->
+                <span class="icon-search-icon search-button"></span>
+            </a>
+        </div>
+        <div class="nav-footer" id="nav-footer" style="display: none">
+            <input type="text" class="form-control search-bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
+        </div>
+                
+        <!-- Side menu -->
+        <div id="side-menu" class="side-menu" style="display: none">
+            <!-- Header -->
+            <div class="menu-header">
+                <!-- User image -->
+                <a class="user-image" onclick="loginWithKakao()">
+                    <!--
+                    <img src="assets/svg/user.svg" alt="Mountain View" style="height: 49px;">
+                    -->
+                    <span class="icon-user">
+                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                    </span>
+                </a>
+                <p class="user-name">
+                    로그인해주세요.
+                </p>
+                <!-- Close button -->
+                <a onclick="close_menu()" class="exit-button">
+                    <!--
+                    <img src="assets/svg/exit-icon.svg" alt="Mountain View" class="exit-button">
+                    -->
+                    <span class="icon-exit-icon"></span>
+                </a>
+            </div>
+            
+            <!-- Menu items -->
+            <div class="container-basic menu-items" id="menu-items">
+                <a class="menu-item" href="index.html">
+                    <!--
+                    <img src="assets/svg/home.svg" alt="Mountain View" class="title-icon">
+                    -->
+                    <span class="icon-home title-icon"></span>
+                    홈
+                </a>
+                <a class="menu-item" href="https://github.com/k0626089/BEEP">
+                    <!--
+                    <img src="assets/svg/github.svg" alt="Mountain View" class="title-icon">
+                    -->
+                    <span class="icon-github title-icon"></span>
+                    GitHub
+                </a>
+            </div>
+        </div>
+        
+        <!-- Main -->
+        <div class="main" id="main">
+            <!-- Ad -->
+            <div id="advert" class="advert">Ad</div>
+            <!-- Song list -->
+            <div class="container-basic">
+                <div class="list-title" id="title-new">
+                    <!--
+                    <img src="assets/svg/new-items-icon.svg" alt="Mountain View" class="title-icon">
+                    -->
+                    <span class="icon-new-items-icon title-icon">
+                        <span class="path1"></span><span class="path2"></span><span class="path3"></span>
+                    </span>
+                    새로 추가된 항목
+                </div>
+                <div id="blocklist" class="blocklist">
+                    <div id="load">
+                        <div class="load">
+                            <img src="assets/image/load.gif" alt="Mountain View" style="height: 50;" id="loading">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Facebook comment -->
+        <!--
+        <div class="fb-comments" data-href="https://&#xc091;.com" data-numposts="5"></div>
+        -->
+        
+        <!-- More button -->
+        <div id="more"></div>
+        
+        <!-- Footer -->
+        <div id="footer" class="footer">
+            <a class="social" id="kakao-link-btn" href="javascript:sendLink()">
+                <!--
+                <img src="assets/svg/kakao.svg" alt="Mountain View" style="height: 25px;">
+                -->
+                <span class="icon-kakao">
+                    <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span>
+                </span>
+            </a>
+            <a class="social" href="https://twitter.com/intent/tweet?text=https://삑.com">
+                <!--
+                <img src="assets/svg/twitter.svg" alt="Mountain View" style="height: 25px;">
+                -->
+                <span class="icon-twitter">
+                    <span class="path1"></span><span class="path2"></span>
+                </span>
+            </a>
+            <a class="social" href="https://www.facebook.com/sharer/sharer.php?app_id=106411910087184&kid_directed_site=0&sdk=joey&u=https%3A%2F%2Fxn--3e4b.com%2F&display=popup&ref=plugin&src=share_button">
+                <!--
+                <img src="assets/svg/facebook.svg" alt="Mountain View" style="height: 25px;">
+                -->
+                <span class="icon-facebook">
+                    <span class="path1"></span><span class="path2"></span>
+                </span>
+            </a>
+            <p class="footer-content">
+                © Copyright 2017, INJE™ All rights reserved.
+            </p>
+        </div>
         
         <!-- Apple web app support -->
         <meta name="apple-mobile-web-app-title" content="삑">
@@ -89,146 +273,5 @@
              media="(device-width: 320px) and (device-height: 480px)
                     and (-webkit-device-pixel-ratio: 1)"
              rel="apple-touch-startup-image">
-    </head>
-    
-    <body onload="getBlocks()">
-        <!-- banner photo -->
-        <img src="assets/image/banner.png" alt="Mountain View" style="display: none">
-        
-        <!-- facebook script -->
-		<script>
-          window.fbAsyncInit = function() {
-            FB.init({
-              appId      : '106411910087184',
-              xfbml      : true,
-              version    : 'v2.10'
-            });
-            FB.AppEvents.logPageView();
-          };
-
-          (function(d, s, id){
-             var js, fjs = d.getElementsByTagName(s)[0];
-             if (d.getElementById(id)) {return;}
-             js = d.createElement(s); js.id = id;
-             js.src = "//connect.facebook.net/en_US/sdk.js";
-             fjs.parentNode.insertBefore(js, fjs);
-           }(document, 'script', 'facebook-jssdk'));
-        </script>
-        
-        <!-- kakaotalk script -->
-        <script>
-            Kakao.init('0ca4cd0fba7964199cdb5d44040d4787');
-            
-            function sendLink() {
-                Kakao.Link.sendTalkLink({
-                    label: '삑 | 최고음 검색기',
-                    image: { src: 'https://beep-a7112.firebaseapp.com/assets/image/banner.png', width: '300', height: '187.5' }
-                    , webButton: { text: '사이트 보러가기', url : 'https://삑.com' 
-                    } }); }
-            
-            function loginWithKakao() {
-                Kakao.Auth.login({
-                    success: function(authObj) {
-                        alert(JSON.stringify(authObj));
-                    },
-                    fail: function(err) {
-                        alert(JSON.stringify(err));
-                    }
-                });
-            };
-        </script>
-            
-        <!-- Nav bar -->
-        <div class="navbar-header">
-            <!-- Menu button -->
-            <a onclick="open_menu()" id="menu-button">
-                <img src="assets/svg/menu-icon.svg" alt="Mountain View" class="menu-button">
-            </a>
-
-            <!-- Logo -->
-            <a href="index.html">
-                <img src="assets/svg/logo.svg" alt="Mountain View" class="logo">
-            </a>
-
-            <!-- Search button -->
-            <a onclick="open_search()" id="search-button">
-                <img src="assets/svg/search-icon.svg" alt="Mountain View" class="search-button">
-            </a>
-        </div>
-        <div class="nav-footer" id="nav-footer" style="display: none">
-            <input type="text" class="form-control search-bar" id="searchbar" onkeyup="search()" placeholder="노래 제목, 가수나 옥타브를 입력해 주세요.">
-        </div>
-                
-        <!-- Side menu -->
-        <div id="side-menu" class="side-menu" style="display: none">
-            <!-- Header -->
-            <div class="menu-header">
-                <!-- User image -->
-                <a class="user-image">
-                    <img src="assets/svg/user.svg" alt="Mountain View" style="height: 49px;">
-                </a>
-                <p class="user-name">로그인해주세요.</p>
-                <!-- Close button -->
-                <a onclick="close_menu()">
-                    <img src="assets/svg/exit-icon.svg" alt="Mountain View" class="exit-button">
-                </a>
-            </div>
-            
-            <!-- Menu items -->
-            <div class="container-basic menu-items" id="menu-items">
-                <a class="menu-item" href="index.html">
-                    <img src="assets/svg/home.svg" alt="Mountain View" class="title-icon">
-                    홈
-                </a>
-                <a class="menu-item" href="https://github.com/k0626089/BEEP">
-                    <img src="assets/svg/github.svg" alt="Mountain View" class="title-icon">
-                    GitHub
-                </a>
-            </div>
-        </div>
-        
-        <!-- Main -->
-        <div class="main" id="main">
-            <!-- Ad -->
-            <div id="advert" class="advert">Ad</div>
-            <!-- Song list -->
-            <div class="container-basic">
-                <div class="list-title">
-                    <img src="assets/svg/new-items-icon.svg" alt="Mountain View" class="title-icon">
-                    새로 추가된 항목
-                </div>
-                <div id="blocklist" class="blocklist">
-                    <div id="load">
-                        <div class="load">
-                            <img src="assets/image/load.gif" alt="Mountain View" style="height: 50;" id="loading">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Facebook comment -->
-        <!--
-        <div class="fb-comments" data-href="https://&#xc091;.com" data-numposts="5"></div>
-        -->
-        
-        <!-- More button -->
-        <div id="more"></div>
-        
-        <!-- Footer -->
-        <div id="footer" class="footer">
-            <a class="social" id="kakao-link-btn" href="javascript:sendLink()">
-                <img src="assets/svg/kakao.svg" alt="Mountain View" style="height: 25px;">
-            </a>
-            <a class="social" href="https://twitter.com/intent/tweet?text=https://삑.com">
-                <img src="assets/svg/twitter.svg" alt="Mountain View" style="height: 25px;">
-            </a>
-            <a class="social" href="https://www.facebook.com/sharer/sharer.php?app_id=106411910087184&kid_directed_site=0&sdk=joey&u=https%3A%2F%2Fxn--3e4b.com%2F&display=popup&ref=plugin&src=share_button">
-                <img src="assets/svg/facebook.svg" alt="Mountain View" style="height: 25px;">
-            </a>
-            <p class="footer-content">
-                © Copyright 2017, INJE™ All rights reserved.
-            </p>
-        </div>
     </body>
 </html>

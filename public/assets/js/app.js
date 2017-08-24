@@ -1,5 +1,5 @@
 // initial values
-var page_item = 15, current_key = '';
+var page_item = 10, current_key = '';
 
 function more_button() {
     "use strict";
@@ -15,7 +15,10 @@ function more_button() {
 	more.setAttribute("src", "assets/svg/more.svg");
 
 	outer_div.appendChild(more);
-	document.getElementById("more").appendChild(outer_div);
+	
+    if(document.getElementById('searchbar').value != "") {
+        document.getElementById("more").appendChild(outer_div);
+    }
 }
 
 // var type: str, str, str, str, int
@@ -99,6 +102,12 @@ function searchBlocks() {
     var i = 0, ref = firebase.database().ref('songs'),
         keyword = document.getElementById('searchbar').value,
         more = document.getElementById("more");
+    
+    if(keyword == "") {
+        document.getElementById("title-new").style.display = "block";
+    } else {
+        document.getElementById("title-new").style.display = "none";
+    }
     
     while (more.firstChild) {
         more.removeChild(more.firstChild);
